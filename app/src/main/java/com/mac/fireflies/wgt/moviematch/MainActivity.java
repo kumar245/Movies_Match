@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
-        Log.d("Development", "First commit");
+        Log.d("Development", "Second commit");
     }
 
     @Override
