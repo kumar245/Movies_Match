@@ -28,8 +28,9 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
-        Log.d("Development", "Second commit");
+        Log.d("Development", "second commit");
         Toast.makeText(this, "First Toast Text", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "second Toast test", Toast.LENGTH_SHORT).show();
     }
 
     @Override
