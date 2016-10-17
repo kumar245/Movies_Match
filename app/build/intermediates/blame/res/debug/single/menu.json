@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\MovieMatch\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\MovieMatch\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\src\\main\\res\\menu\\menu_main.xml"
+    }
+]
