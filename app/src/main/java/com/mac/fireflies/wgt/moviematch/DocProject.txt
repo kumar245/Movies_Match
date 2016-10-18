@@ -1,0 +1,51 @@
+Cache:
+searching two names, if we search two names.we can catch the data when we search two names, when the user asks same two names, we already have the connection, with these names.
+Name,images,Number and URl,for getting the file name and getting the url.
+
+Category Name.
+
+favourite movie  details and images, trailers if we need one watch offline
+
+
+work
+firebase Authentication
+
+Movie{
+ Boolean adult;
+ List<Object> genres = new ArrayList<Object>();
+ List<Artist> casting = new ArrayList<Artist>();
+ String homepage;
+ Integer id;
+ String imdbId;
+ String originalLanguage;
+ String originalTitle;
+ String overview;
+ Float popularity;
+ String posterPath;
+ List<Object> productionCompanies = new ArrayList<Object>();
+ List<Object> productionCountries = new ArrayList<Object>();
+ String releaseDate;
+ String title;
+ Integer voteAverage;
+ Integer voteCount;
+}
+Artist{
+ Integer id;
+ String name;
+ String pathImdb;
+}
+Connection {
+ Artist art1;
+ Artist art2;
+ Movie movie;
+}
+User{
+ List<Movie> favorites = new ArrayList<Movie>();
+ List<Connection> searched = new ArrayList<Connection>();
+ List<Movie> watched = new ArrayList<Movie>();
+}
+
+Category{
+ List<Movie> favorites = new ArrayList<Movie>();
+ List<Connection> searched = new ArrayList<Connection>();
+ List<Movie> watched = new ArrayList<Movie>();
