@@ -5,22 +5,22 @@
     density="420dpi"
     format="8"
     plugin-version="2.2.1"
-    timestamp="206333729733195"
+    timestamp="206909731017319"
     token="-7685071433241445506"
     verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="254" />
+        duration="195" />
     <task
         name="instant-run-dex"
-        duration="14" />
+        duration="20" />
     <task
         name="instant-run-transform"
-        duration="32" />
+        duration="65" />
     <task
         name="verifier"
-        duration="3" />
+        duration="8" />
 
     <artifact
         location="C:\Users\User\AndroidStudioProjects\Movies_Match\app\build\intermediates\reload-dex\debug\classes.dex"
@@ -41,14 +41,14 @@
             type="RESOURCES" />
     </build>
     <build
-        timestamp="206014104665802"
-        verifier="FIELD_ADDED" >
+        timestamp="206711864968756"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\User\AndroidStudioProjects\Movies_Match\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
             type="DEX" />
     </build>
     <build
-        timestamp="206333729733195"
+        timestamp="206909731017319"
         verifier="COMPATIBLE" >
         <artifact
             location="C:\Users\User\AndroidStudioProjects\Movies_Match\app\build\intermediates\reload-dex\debug\classes.dex"

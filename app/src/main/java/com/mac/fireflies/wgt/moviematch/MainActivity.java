@@ -53,6 +53,15 @@ public class MainActivity extends AppCompatActivity {
         textViewArtist1.setText("Tom Cruise");
         textViewArtist2.setText("Eminem");
 
+        //********How to set List to Autocomnplete
+        final String[] COUNTRIES = new String[] {
+                "Belgium", "France", "Italy", "Germany", "Spain"
+        };
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
+                android.R.layout.simple_dropdown_item_1line, COUNTRIES);
+        textViewArtist1.setAdapter(adapter);
+
+        //*******OnClic Button
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
