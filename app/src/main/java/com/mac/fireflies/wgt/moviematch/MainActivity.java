@@ -13,6 +13,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
@@ -47,6 +48,10 @@ public class MainActivity extends AppCompatActivity {
         //ListView with data
         listView = (ListView) findViewById(R.id.listView);
         Button button = (Button) findViewById(R.id.button);
+        final AutoCompleteTextView textViewArtist1 = (AutoCompleteTextView) findViewById(R.id.editText1) ;
+        final AutoCompleteTextView textViewArtist2 = (AutoCompleteTextView) findViewById(R.id.editText2) ;
+        textViewArtist1.setText("Tom Cruise");
+        textViewArtist2.setText("Eminem");
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -56,11 +61,9 @@ public class MainActivity extends AppCompatActivity {
                         android.R.layout.simple_list_item_1,
                         new ArrayList<String>());
                 ArtistMoviesConnection
-                        .findConnection("Tom Cruise", "Eminem", adapter);
+                        .findConnection(textViewArtist1.getText().toString(), textViewArtist2.getText().toString(), adapter);
 
-                String[] values = new String[]{
-                        "Kevin", "Batman", "William"
-                };
+
 //                ArrayAdapter<String> adapter = new ArrayAdapter<ArtistMoviesConnection>(getApplicationContext(), android.R.layout.simple_list_item_1,
 //                        new LinkedList<ArtistMoviesConnection>()){
 //                    @NonNull

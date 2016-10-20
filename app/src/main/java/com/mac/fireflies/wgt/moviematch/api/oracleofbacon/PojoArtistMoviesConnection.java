@@ -21,5 +21,11 @@ public class PojoArtistMoviesConnection {
     @SerializedName("status")
     @Expose
     public String status;
+    @SerializedName("matches")
+    @Expose
+    public List<String> matches = new ArrayList<String>();
+    @SerializedName("name")
+    @Expose
+    public String name;
 
 }
