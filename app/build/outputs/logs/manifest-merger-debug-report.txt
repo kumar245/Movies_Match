@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\User\AndroidStudioProjects\Movies_Match\app\src\main\AndroidManifest.xml:2:1-23:12
+ADDED from C:\Users\User\AndroidStudioProjects\Movies_Match\app\src\main\AndroidManifest.xml:2:1-26:12
 	package
 		ADDED from C:\Users\User\AndroidStudioProjects\Movies_Match\app\src\main\AndroidManifest.xml:3:5-47
 		INJECTED from C:\Users\User\AndroidStudioProjects\Movies_Match\app\src\main\AndroidManifest.xml
@@ -53,6 +53,18 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\User\AndroidStudioProjects\Movies_Match\app\src\main\AndroidManifest.xml:18:17-77
 	android:name
 		ADDED from C:\Users\User\AndroidStudioProjects\Movies_Match\app\src\main\AndroidManifest.xml:18:27-74
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\User\AndroidStudioProjects\Movies_Match\app\src\main\AndroidManifest.xml:22:5-67
+	android:name
+		ADDED from C:\Users\User\AndroidStudioProjects\Movies_Match\app\src\main\AndroidManifest.xml:22:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\User\AndroidStudioProjects\Movies_Match\app\src\main\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from C:\Users\User\AndroidStudioProjects\Movies_Match\app\src\main\AndroidManifest.xml:23:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\User\AndroidStudioProjects\Movies_Match\app\src\main\AndroidManifest.xml:24:5-76
+	android:name
+		ADDED from C:\Users\User\AndroidStudioProjects\Movies_Match\app\src\main\AndroidManifest.xml:24:22-73
 uses-sdk
 INJECTED from C:\Users\User\AndroidStudioProjects\Movies_Match\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:24.2.1] C:\Users\User\AndroidStudioProjects\Movies_Match\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\AndroidManifest.xml:20:5-43
