@@ -1,6 +1,7 @@
 package com.mac.fireflies.wgt.moviematch.api.oracleofbacon;
 
 
+import com.mac.fireflies.wgt.moviematch.MainActivity;
 import com.mac.fireflies.wgt.moviematch.network.RetrofitApiService;
 import com.mac.fireflies.wgt.moviematch.network.RetrofitClient;
 
@@ -20,14 +21,14 @@ public class ArtistMoviesConnection {
     static RetrofitApiService retrofitApiService = RetrofitClient.getApiService();
     static final List<PojoArtistMoviesConnection> connection  = new ArrayList<>();
 
-    public static void findConnection(String artist1, String artist2) {
+    public static void findConnection(String artist1, String artist2, final MainActivity.AdapterArtistMovieConnection adapter) {
         Call<PojoArtistMoviesConnection> list = retrofitApiService.getMyJSON(URL_KEY + "&a="+artist1 +"&b="+artist2);
         list.enqueue(new Callback<PojoArtistMoviesConnection>() {
             @Override
             public void onResponse(Call<PojoArtistMoviesConnection> call, Response<PojoArtistMoviesConnection> response) {
                 if (response.isSuccessful()){
-                    connection.add(response.body());
-                    System.out.println(connection.get(0).status);
+                    adapter.addAll(response.body().link);
+                    //System.out.println(connection.get(0).status);
                 }
             }
 
