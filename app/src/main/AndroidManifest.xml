@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.mac.fireflies.wgt.moviematch">
-    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -19,7 +18,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".login.Sign_in_with_Email"></activity>
+        <receiver android:name=".myreceiver">
+            <intent-filter>
+                <action android:name="com.mac.fireflies.wgt.moviematch.STATUS_SUCCESS"></action>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.mac.fireflies.wgt.moviematch.STATUS_SPELL_CHECK"></action>
+            </intent-filter>
+        </receiver>
     </application>
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
