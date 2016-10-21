@@ -1,9 +1,1 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-36679190698321
-=======
-206711864968756
->>>>>>> development
-=======
-206014104665802
->>>>>>> parent of a278ff9... Test App with the show the list of the connections reverse
+110089703408829

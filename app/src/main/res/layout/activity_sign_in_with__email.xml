@@ -64,8 +64,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/sign"
-            android:text="@string/sign_in"
-            android:onClick="signin"/>
+            android:text="Signin"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
