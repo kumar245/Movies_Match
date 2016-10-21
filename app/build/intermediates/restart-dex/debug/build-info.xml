@@ -5,6 +5,7 @@
     density="420dpi"
     format="8"
     plugin-version="2.2.1"
+<<<<<<< HEAD
     timestamp="36679190698321"
     token="-7685071433241445506"
     verifier="COLD_SWAP_REQUESTED" >
@@ -12,11 +13,21 @@
     <task
         name="javac"
         duration="187" />
+=======
+    timestamp="206909731017319"
+    token="-7685071433241445506"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="195" />
+>>>>>>> development
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="20" />
     <task
         name="instant-run-transform"
+<<<<<<< HEAD
         duration="22" />
     <task
         name="verifier"
@@ -28,12 +39,26 @@
 
     <build
         timestamp="30673947242836"
+=======
+        duration="65" />
+    <task
+        name="verifier"
+        duration="8" />
+
+    <artifact
+        location="C:\Users\User\AndroidStudioProjects\Movies_Match\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
+
+    <build
+        timestamp="195211348316047"
+>>>>>>> development
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\User\AndroidStudioProjects\Movies_Match\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
+<<<<<<< HEAD
         timestamp="32188242077318"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
@@ -59,6 +84,27 @@
         <artifact
             location="C:\Users\User\AndroidStudioProjects\Movies_Match\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
             type="DEX" />
+=======
+        timestamp="199763715859330"
+        verifier="FIELD_ADDED" >
+        <artifact
+            location="C:\Users\User\AndroidStudioProjects\Movies_Match\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
+    </build>
+    <build
+        timestamp="206711864968756"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\User\AndroidStudioProjects\Movies_Match\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="206909731017319"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\User\AndroidStudioProjects\Movies_Match\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
+>>>>>>> development
     </build>
 
 </instant-run>

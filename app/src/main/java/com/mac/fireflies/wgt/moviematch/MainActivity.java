@@ -1,15 +1,21 @@
 package com.mac.fireflies.wgt.moviematch;
 
+<<<<<<< HEAD
 import android.content.Intent;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.net.Uri;
+=======
+import android.content.Context;
+>>>>>>> development
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+<<<<<<< HEAD
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.View;
@@ -28,6 +34,25 @@ public class MainActivity extends AppCompatActivity implements SurfaceHolder.Cal
     SurfaceView surfaceView = null;
 
     Button btnHome;
+=======
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
+import android.widget.Button;
+import android.widget.ListView;
+import android.widget.Toast;
+
+import com.mac.fireflies.wgt.moviematch.api.oracleofbacon.ArtistMoviesConnection;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class MainActivity extends AppCompatActivity {
+    ListView listView;
+>>>>>>> development
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -103,8 +128,51 @@ public class MainActivity extends AppCompatActivity implements SurfaceHolder.Cal
         Toast.makeText(this, "First Toast Text", Toast.LENGTH_LONG).show();
         Toast.makeText(this, "second Toast test", Toast.LENGTH_SHORT).show();
 
+<<<<<<< HEAD
 
 
+=======
+        //ListView with data
+        listView = (ListView) findViewById(R.id.listView);
+        Button button = (Button) findViewById(R.id.button);
+        final AutoCompleteTextView textViewArtist1 = (AutoCompleteTextView) findViewById(R.id.editText1) ;
+        final AutoCompleteTextView textViewArtist2 = (AutoCompleteTextView) findViewById(R.id.editText2) ;
+        textViewArtist1.setText("Tom Cruise");
+        textViewArtist2.setText("Eminem");
+
+        //********How to set List to Autocomnplete
+        final String[] COUNTRIES = new String[] {
+                "Belgium", "France", "Italy", "Germany", "Spain"
+        };
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
+                android.R.layout.simple_dropdown_item_1line, COUNTRIES);
+        textViewArtist1.setAdapter(adapter);
+
+        //*******OnClic Button
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                final AdapterArtistMovieConnection adapter = new AdapterArtistMovieConnection(getApplicationContext(),
+                        android.R.layout.simple_list_item_1,
+                        new ArrayList<String>());
+                ArtistMoviesConnection
+                        .findConnection(textViewArtist1.getText().toString(), textViewArtist2.getText().toString(), adapter);
+
+
+//                ArrayAdapter<String> adapter = new ArrayAdapter<ArtistMoviesConnection>(getApplicationContext(), android.R.layout.simple_list_item_1,
+//                        new LinkedList<ArtistMoviesConnection>()){
+//                    @NonNull
+//                    @Override
+//                    public View getView(int position, View convertView, ViewGroup parent) {
+//                        return super.getView(position, convertView, parent);
+//                    }
+//                };
+
+                listView.setAdapter(adapter);
+            }
+        });
+>>>>>>> development
 
 
     }
@@ -131,6 +199,7 @@ public class MainActivity extends AppCompatActivity implements SurfaceHolder.Cal
         return super.onOptionsItemSelected(item);
     }
 
+<<<<<<< HEAD
     @Override
     public void surfaceCreated(SurfaceHolder holder) {
         Uri video = Uri.parse("android.resource://" + getPackageName() + "/"
@@ -181,5 +250,27 @@ public class MainActivity extends AppCompatActivity implements SurfaceHolder.Cal
     @Override
     public void surfaceDestroyed(SurfaceHolder holder) {
 
+=======
+    //test on console
+    public static void main(String...args) throws Exception{
+//        ArtistMoviesConnection
+//                .findConnection("Kevin Bacon", "Eminem", adapter);
+    }
+
+    public class AdapterArtistMovieConnection extends ArrayAdapter<String>{
+        List<String> connections;
+        public AdapterArtistMovieConnection(Context context, int resource, List<String> conn) {
+            super(context, resource);
+            connections = conn;
+
+        }
+
+        @NonNull
+        @Override
+        public View getView(int position, View convertView, ViewGroup parent) {
+
+            return super.getView(position, convertView, parent);
+        }
+>>>>>>> development
     }
 }
