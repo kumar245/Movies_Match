@@ -13,13 +13,17 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
 
 import com.firebase.ui.auth.AuthUI;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.mac.fireflies.wgt.moviematch.api.oracleofbacon.ArtistMoviesConnection;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
@@ -35,7 +39,25 @@ public class MainActivity extends AppCompatActivity {
 
         setSupportActionBar(toolbar);
 
-        //****Autentication using FireBaseUI
+
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
+            }
+        });
+
+
+        fireBaseLogin();
+        matchArtist();
+
+
+    }
+
+    private void fireBaseLogin() {
+        //****Authentication using FireBaseUI
         auth = FirebaseAuth.getInstance().getCurrentUser();
         if (auth != null) {
             // already signed in
@@ -51,35 +73,26 @@ public class MainActivity extends AppCompatActivity {
                     RC_SIGN_IN);
 
         }
+    }
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
-
-
-
+    private void matchArtist() {
         //ListView with data
-//        listView = (ListView) findViewById(R.id.listView);
-//        Button button = (Button) findViewById(R.id.button);
-//        final AutoCompleteTextView textViewArtist1 = (AutoCompleteTextView) findViewById(R.id.editText1) ;
-//        final AutoCompleteTextView textViewArtist2 = (AutoCompleteTextView) findViewById(R.id.editText2) ;
-//        textViewArtist1.setText("Tom Cruise");
-//        textViewArtist2.setText("Eminem");
-//
-//        button.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//
-//                final AdapterArtistMovieConnection adapter = new AdapterArtistMovieConnection(getApplicationContext(),
-//                        android.R.layout.simple_list_item_1,
-//                        new ArrayList<String>());
-//                ArtistMoviesConnection
-//                        .findConnection(textViewArtist1.getText().toString(), textViewArtist2.getText().toString(), adapter);
+        listView = (ListView) findViewById(R.id.listView);
+        Button button = (Button) findViewById(R.id.button);
+        final AutoCompleteTextView textViewArtist1 = (AutoCompleteTextView) findViewById(R.id.editText1) ;
+        final AutoCompleteTextView textViewArtist2 = (AutoCompleteTextView) findViewById(R.id.editText2) ;
+        textViewArtist1.setText("Tom Cruise");
+        textViewArtist2.setText("Eminem");
+
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                final AdapterArtistMovieConnection adapter = new AdapterArtistMovieConnection(getApplicationContext(),
+                        android.R.layout.simple_list_item_1,
+                        new ArrayList<String>());
+                ArtistMoviesConnection
+                        .findConnection(textViewArtist1.getText().toString(), textViewArtist2.getText().toString(), adapter);
 
 
 //                ArrayAdapter<String> adapter = new ArrayAdapter<ArtistMoviesConnection>(getApplicationContext(), android.R.layout.simple_list_item_1,
@@ -91,11 +104,9 @@ public class MainActivity extends AppCompatActivity {
 //                    }
 //                };
 
-//                listView.setAdapter(adapter);
-//            }
-//        });
-
-
+                listView.setAdapter(adapter);
+            }
+        });
     }
 
     @Override

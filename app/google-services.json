@@ -59,6 +59,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "268890573700-evi2rc1b3hov9r11kblel5j1a9mhae61.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mac.fireflies.wgt.moviematch",
+            "certificate_hash": "F8BB1F979F18BCBC3ADE984E260EC16D654619B5"
+          }
+        },
+        {
           "client_id": "268890573700-c3fedltd2oek9r6732k1he3tp0bnt7a4.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -73,8 +81,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "268890573700-c3fedltd2oek9r6732k1he3tp0bnt7a4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
