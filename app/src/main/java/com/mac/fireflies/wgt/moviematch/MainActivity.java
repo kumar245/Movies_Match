@@ -1,42 +1,17 @@
 package com.mac.fireflies.wgt.moviematch;
 
-<<<<<<< HEAD
-import android.content.Intent;
+import android.content.Context;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.net.Uri;
-=======
-import android.content.Context;
->>>>>>> development
 import android.os.Bundle;
 import android.support.annotation.NonNull;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.util.Log;
-<<<<<<< HEAD
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
-import android.view.View;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.Toast;
-
-import com.mac.fireflies.wgt.moviematch.login.Sign_in_with_Email;
-
-import java.io.IOException;
-
-public class MainActivity extends AppCompatActivity implements SurfaceHolder.Callback {
-    private MediaPlayer mediaPlayer = null;
-    SurfaceView surfaceView = null;
-
-    Button btnHome;
-=======
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
@@ -47,13 +22,16 @@ import android.widget.Toast;
 
 import com.mac.fireflies.wgt.moviematch.api.oracleofbacon.ArtistMoviesConnection;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
-    ListView listView;
->>>>>>> development
+public class MainActivity extends AppCompatActivity implements SurfaceHolder.Callback {
+    private MediaPlayer mediaPlayer = null;
+    SurfaceView surfaceView = null;
 
+    Button btnHome;
+    ListView listView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -128,10 +106,6 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, "First Toast Text", Toast.LENGTH_LONG).show();
         Toast.makeText(this, "second Toast test", Toast.LENGTH_SHORT).show();
 
-<<<<<<< HEAD
-
-
-=======
         //ListView with data
         listView = (ListView) findViewById(R.id.listView);
         Button button = (Button) findViewById(R.id.button);
@@ -172,7 +146,6 @@ public class MainActivity extends AppCompatActivity {
                 listView.setAdapter(adapter);
             }
         });
->>>>>>> development
 
 
     }
@@ -199,7 +172,6 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-<<<<<<< HEAD
     @Override
     public void surfaceCreated(SurfaceHolder holder) {
         Uri video = Uri.parse("android.resource://" + getPackageName() + "/"
@@ -249,8 +221,8 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public void surfaceDestroyed(SurfaceHolder holder) {
+    }
 
-=======
     //test on console
     public static void main(String...args) throws Exception{
 //        ArtistMoviesConnection
@@ -271,6 +243,5 @@ public class MainActivity extends AppCompatActivity {
 
             return super.getView(position, convertView, parent);
         }
->>>>>>> development
     }
 }
