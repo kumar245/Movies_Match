@@ -1664,9 +1664,51 @@
                     "startLine": 227,
                     "startColumn": 4,
                     "startOffset": 16918,
-                    "endLine": 236,
+                    "endLine": 240,
                     "endColumn": 12,
-                    "endOffset": 17426
+                    "endOffset": 17751
+                },
+                "from": {
+                    "file": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.firebaseui\\firebase-ui-auth\\0.6.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 15,
+                        "endColumn": 12,
+                        "endOffset": 888
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 241,
+                    "startColumn": 4,
+                    "startOffset": 17756,
+                    "endLine": 258,
+                    "endColumn": 12,
+                    "endOffset": 18791
+                },
+                "from": {
+                    "file": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.firebaseui\\firebase-ui-auth\\0.6.1\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 893,
+                        "endLine": 33,
+                        "endColumn": 12,
+                        "endOffset": 1928
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 259,
+                    "startColumn": 4,
+                    "startOffset": 18796,
+                    "endLine": 268,
+                    "endColumn": 12,
+                    "endOffset": 19304
                 },
                 "from": {
                     "file": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\values-v21\\values-v21.xml",
@@ -1682,12 +1724,12 @@
             },
             {
                 "to": {
-                    "startLine": 237,
+                    "startLine": 269,
                     "startColumn": 4,
-                    "startOffset": 17431,
-                    "endLine": 246,
+                    "startOffset": 19309,
+                    "endLine": 278,
                     "endColumn": 12,
-                    "endOffset": 17951
+                    "endOffset": 19829
                 },
                 "from": {
                     "file": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\values-v21\\values-v21.xml",
@@ -1703,12 +1745,12 @@
             },
             {
                 "to": {
-                    "startLine": 247,
+                    "startLine": 279,
                     "startColumn": 4,
-                    "startOffset": 17956,
-                    "endLine": 256,
+                    "startOffset": 19834,
+                    "endLine": 288,
                     "endColumn": 12,
-                    "endOffset": 18631
+                    "endOffset": 20509
                 },
                 "from": {
                     "file": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\values-v21\\values-v21.xml",
@@ -1724,11 +1766,11 @@
             },
             {
                 "to": {
-                    "startLine": 257,
+                    "startLine": 289,
                     "startColumn": 4,
-                    "startOffset": 18636,
+                    "startOffset": 20514,
                     "endColumn": 56,
-                    "endOffset": 18688
+                    "endOffset": 20566
                 },
                 "from": {
                     "file": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\values-v21\\values-v21.xml",
@@ -1743,11 +1785,11 @@
             },
             {
                 "to": {
-                    "startLine": 258,
+                    "startLine": 290,
                     "startColumn": 4,
-                    "startOffset": 18693,
+                    "startOffset": 20571,
                     "endColumn": 57,
-                    "endOffset": 18746
+                    "endOffset": 20624
                 },
                 "from": {
                     "file": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\values-v21\\values-v21.xml",
@@ -1762,12 +1804,12 @@
             },
             {
                 "to": {
-                    "startLine": 259,
+                    "startLine": 291,
                     "startColumn": 4,
-                    "startOffset": 18751,
-                    "endLine": 261,
+                    "startOffset": 20629,
+                    "endLine": 293,
                     "endColumn": 12,
-                    "endOffset": 18940
+                    "endOffset": 20818
                 },
                 "from": {
                     "file": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\values-v21\\values-v21.xml",

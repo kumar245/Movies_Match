@@ -20,6 +20,18 @@
         "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\idp_button_facebook.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.firebaseui\\firebase-ui-auth\\0.6.1\\res\\layout\\idp_button_facebook.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\confirm_recovery_layout.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.firebaseui\\firebase-ui-auth\\0.6.1\\res\\layout\\confirm_recovery_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_large.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\messenger_button_send_white_large.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
         "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_navigation_item.xml"
     },
@@ -34,6 +46,14 @@
     {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
         "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_login_fragment.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\com_facebook_login_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_small.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\messenger_button_send_blue_small.xml"
     },
     {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
@@ -52,8 +72,16 @@
         "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\register_email_layout.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.firebaseui\\firebase-ui-auth\\0.6.1\\res\\layout\\register_email_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
         "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_large.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\messenger_button_send_blue_large.xml"
     },
     {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
@@ -80,8 +108,16 @@
         "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_text_input_password_icon.xml"
     },
     {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\email_hint_container_layout.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.firebaseui\\firebase-ui-auth\\0.6.1\\res\\layout\\email_hint_container_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
         "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_activity_layout.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\com_facebook_activity_layout.xml"
     },
     {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
@@ -94,6 +130,10 @@
     {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
         "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_tooltip_bubble.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\com_facebook_tooltip_bubble.xml"
     },
     {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
@@ -116,12 +156,24 @@
         "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_screen_content_include.xml"
     },
     {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_round.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\messenger_button_send_blue_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\welcome_back_password_prompt_layout.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.firebaseui\\firebase-ui-auth\\0.6.1\\res\\layout\\welcome_back_password_prompt_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
         "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
         "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\auth_method_picker_layout.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.firebaseui\\firebase-ui-auth\\0.6.1\\res\\layout\\auth_method_picker_layout.xml"
     },
     {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
@@ -132,12 +184,32 @@
         "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\signin_no_password_layout.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.firebaseui\\firebase-ui-auth\\0.6.1\\res\\layout\\signin_no_password_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
         "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_round.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\messenger_button_send_white_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\delete_credential.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.firebaseui\\firebase-ui-auth\\0.6.1\\res\\layout\\delete_credential.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sign_in_layout.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.firebaseui\\firebase-ui-auth\\0.6.1\\res\\layout\\sign_in_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
         "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_firebase_login.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.firebaseui\\firebase-ui\\0.6.1\\res\\layout\\fragment_firebase_login.xml"
     },
     {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sign_in_with__email.xml",
@@ -176,8 +248,16 @@
         "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\forgot_password_layout.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.firebaseui\\firebase-ui-auth\\0.6.1\\res\\layout\\forgot_password_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
         "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\save_credentials_layout.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.firebaseui\\firebase-ui-auth\\0.6.1\\res\\layout\\save_credentials_layout.xml"
     },
     {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
@@ -208,11 +288,27 @@
         "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_device_auth_dialog_fragment.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\com_facebook_device_auth_dialog_fragment.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
         "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_navigation_menu.xml"
     },
     {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\welcome_back_idp_prompt_layout.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.firebaseui\\firebase-ui-auth\\0.6.1\\res\\layout\\welcome_back_idp_prompt_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
         "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_small.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\messenger_button_send_white_small.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\idp_button_google.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.firebaseui\\firebase-ui-auth\\0.6.1\\res\\layout\\idp_button_google.xml"
     }
 ]

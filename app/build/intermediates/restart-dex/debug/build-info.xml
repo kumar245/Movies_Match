@@ -4,10 +4,9 @@
     api-level="24"
     density="420dpi"
     format="8"
-    plugin-version="2.2.1"
-    timestamp="110579494024650"
-    token="-7685071433241445506"
-    verifier="COLD_SWAP_REQUESTED" >
+    plugin-version="2.2.2"
+    timestamp="232340078165289"
+    token="-7685071433241445506" >
 
     <task
         name="javac"
@@ -22,30 +21,82 @@
         name="verifier"
         duration="0" />
 
-    <artifact
-        location="C:\Users\User\AndroidStudioProjects\Movies_Match\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-        type="RESOURCES" />
-
     <build
-        timestamp="106509048450787"
+        timestamp="230015752915532"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\User\AndroidStudioProjects\Movies_Match\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="110089703408829"
+        timestamp="230668835962394"
         verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\User\AndroidStudioProjects\Movies_Match\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="C:\Users\User\AndroidStudioProjects\Movies_Match\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\User\AndroidStudioProjects\Movies_Match\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.firebaseui-firebase-ui-database-0.6.1_4a9a194acb637d71d1d6bfe27bf6f346add7f061\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\User\AndroidStudioProjects\Movies_Match\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\User\AndroidStudioProjects\Movies_Match\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\User\AndroidStudioProjects\Movies_Match\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-9.6.1_0c2b64efb9baa39c1eaa44423faca5b098db29b8\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\User\AndroidStudioProjects\Movies_Match\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.firebaseui-firebase-ui-0.6.1_728441bd767909a9563cd12c8c34d2067e37fd42\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\User\AndroidStudioProjects\Movies_Match\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-palette-v7-24.2.1_30e9a977e016ddeadc2bec78468464fbe55b1d3f\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\User\AndroidStudioProjects\Movies_Match\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\User\AndroidStudioProjects\Movies_Match\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.firebaseui-firebase-ui-storage-0.6.1_d203cac42bf5d0dcfacdc88fa5b4d1f7ee52ede1\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\User\AndroidStudioProjects\Movies_Match\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-9.6.1_7c8d2a98f668c83355eb1c6af4bbda0dbbd6cf94\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\User\AndroidStudioProjects\Movies_Match\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-9.6.1_8acf33534204c9e8cb8e93bcb871ecf55c3d5220\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\User\AndroidStudioProjects\Movies_Match\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\User\AndroidStudioProjects\Movies_Match\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\User\AndroidStudioProjects\Movies_Match\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\User\AndroidStudioProjects\Movies_Match\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-9.6.1_dcc2f7179ad307bfb1f903e844019d74cd7a27cc\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\User\AndroidStudioProjects\Movies_Match\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_9f79a10fffeb20d68ec2556dfcbe26f5eb452e5e\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="232042293058007"
+        verifier="FIELD_ADDED" >
         <artifact
             location="C:\Users\User\AndroidStudioProjects\Movies_Match\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
             type="DEX" />
     </build>
     <build
-        timestamp="110579494024650"
-        verifier="COLD_SWAP_REQUESTED" >
+        timestamp="232216690538689"
+        verifier="COMPATIBLE" >
         <artifact
-            location="C:\Users\User\AndroidStudioProjects\Movies_Match\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-            type="RESOURCES" />
+            location="C:\Users\User\AndroidStudioProjects\Movies_Match\app\build\intermediates\builds\debug\232216690538689\classes.dex"
+            type="RELOAD_DEX" />
     </build>
+    <build timestamp="232340078165289" />
 
 </instant-run>

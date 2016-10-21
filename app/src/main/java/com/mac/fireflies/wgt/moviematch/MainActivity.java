@@ -1,30 +1,31 @@
 package com.mac.fireflies.wgt.moviematch;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.AutoCompleteTextView;
-import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.mac.fireflies.wgt.moviematch.api.oracleofbacon.ArtistMoviesConnection;
+import com.firebase.ui.auth.AuthUI;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     ListView listView;
+    static int RC_SIGN_IN = 200;
+    FirebaseUser auth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +35,23 @@ public class MainActivity extends AppCompatActivity {
 
         setSupportActionBar(toolbar);
 
+        //****Autentication using FireBaseUI
+        auth = FirebaseAuth.getInstance().getCurrentUser();
+        if (auth != null) {
+            // already signed in
+        } else {
+            startActivityForResult(
+                    AuthUI.getInstance()
+                            .createSignInIntentBuilder()
+                            .setProviders(
+                                    AuthUI.EMAIL_PROVIDER,
+                                    AuthUI.GOOGLE_PROVIDER,
+                                    AuthUI.FACEBOOK_PROVIDER)
+                            .build(),
+                    RC_SIGN_IN);
+
+        }
+
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -42,6 +60,8 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+
 
         //ListView with data
 //        listView = (ListView) findViewById(R.id.listView);
@@ -75,6 +95,23 @@ public class MainActivity extends AppCompatActivity {
 //            }
 //        });
 
+
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == RC_SIGN_IN) {
+            if (resultCode == RESULT_OK) {
+                // user is signed in!
+                startActivity(new Intent(this, MainActivity.class));
+                finish();
+
+            } else {
+                // user is not signed in. Maybe just wait for the user to press
+                // "sign in" again, or show a message
+            }
+        }Toast.makeText(this, "Login Activity", Toast.LENGTH_LONG).show();
 
     }
 

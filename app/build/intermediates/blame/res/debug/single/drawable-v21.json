@@ -10,5 +10,9 @@
     {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
         "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\rounded_button.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.firebaseui\\firebase-ui-auth\\0.6.1\\res\\drawable-v21\\rounded_button.xml"
     }
 ]

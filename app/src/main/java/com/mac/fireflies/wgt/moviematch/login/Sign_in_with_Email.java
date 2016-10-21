@@ -1,16 +1,14 @@
 package com.mac.fireflies.wgt.moviematch.login;
 
 import android.app.ProgressDialog;
-import android.support.annotation.NonNull;
-import android.support.v4.text.TextUtilsCompat;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -20,8 +18,6 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.mac.fireflies.wgt.moviematch.R;
-
-import org.w3c.dom.Text;
 
 public class Sign_in_with_Email extends AppCompatActivity implements View.OnClickListener {
     EditText e1;
@@ -38,7 +34,7 @@ public class Sign_in_with_Email extends AppCompatActivity implements View.OnClic
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_in_with__email);
         progressdialog=new ProgressDialog(this);
-e1=(EditText) findViewById(R.id.username);
+        e1=(EditText) findViewById(R.id.username);
         e2=(EditText) findViewById(R.id.password);
         b1=(Button) findViewById(R.id.sign);
         t1=(TextView) findViewById(R.id.already);
