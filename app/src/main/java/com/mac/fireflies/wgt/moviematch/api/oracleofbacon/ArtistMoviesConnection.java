@@ -37,9 +37,9 @@ public class ArtistMoviesConnection {
                             Toast.makeText(adapter.getContext(), "We found a connection", Toast.LENGTH_LONG).show();
                             List<String> links = response.body().link;
                             Collections.reverse(links);
-                            adapter.addAll(links);
                             i.setAction("com.mac.fireflies.wgt.moviematch.STATUS_SUCCESS");
                             adapter.getContext().sendBroadcast(i);
+                            adapter.addAll(links);
                             break;
                         case "spellcheck":
                             Toast.makeText(adapter.getContext(), "Please check the suggested names", Toast.LENGTH_LONG).show();

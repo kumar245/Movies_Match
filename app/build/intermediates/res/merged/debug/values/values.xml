@@ -579,11 +579,19 @@
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
     <dimen name="notification_large_icon_height">64dp</dimen>
     <dimen name="notification_large_icon_width">64dp</dimen>
     <dimen name="notification_subtext_size">12dp</dimen>
     <item format="float" name="slightly_visible_icon" type="dimen">0.4</item>
     <item format="float" name="visible_icon" type="dimen">1.0</item>
+    <item name="ic_menu_camera" type="drawable">@android:drawable/ic_menu_camera</item>
+    <item name="ic_menu_gallery" type="drawable">@android:drawable/ic_menu_gallery</item>
+    <item name="ic_menu_manage" type="drawable">@android:drawable/ic_menu_manage</item>
+    <item name="ic_menu_send" type="drawable">@android:drawable/ic_menu_send</item>
+    <item name="ic_menu_share" type="drawable">@android:drawable/ic_menu_share</item>
+    <item name="ic_menu_slideshow" type="drawable">@android:drawable/ic_menu_slideshow</item>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
     <item name="action_bar_activity_content" type="id"/>
     <item name="action_bar_spinner" type="id"/>
@@ -714,6 +722,8 @@
     <string name="missing_email_address">Enter your email address to continue</string>
     <string name="missing_password_email_toast">Missing password or email</string>
     <string name="name_hint">First &amp; last name</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="next">Next</string>
     <string name="password_hint">Password</string>
     <string name="password_length">Strong passwords have at least %1$d characters and a mix of letters
@@ -737,6 +747,7 @@
     <string name="sign_in_with_google">Sign in with Google</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="terms_of_service">Terms of Service</string>
+    <string name="title_activity_navigation">Navigation</string>
     <string name="title_confirm_recover_password_activity">@string/check_your_email</string>
     <string name="title_recover_password_activity">@string/recover_password_title</string>
     <string name="title_register_email_activity">@string/create_account_title</string>
