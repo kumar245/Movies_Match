@@ -5,9 +5,9 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="12124312378870"
+    timestamp="16515120355498"
     token="-7685071433241445506"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
@@ -23,15 +23,36 @@
         duration="0" />
 
     <artifact
-        location="C:\Users\User\AndroidStudioProjects\Movies_Match\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="C:\Users\User\AndroidStudioProjects\Movies_Match\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
-        timestamp="12124312378870"
+        timestamp="15644396312096"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\User\AndroidStudioProjects\Movies_Match\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="16122010243912"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\User\AndroidStudioProjects\Movies_Match\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="16259768488610"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\User\AndroidStudioProjects\Movies_Match\app\build\intermediates\builds\debug\16259768488610\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="16515120355498"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\User\AndroidStudioProjects\Movies_Match\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>
