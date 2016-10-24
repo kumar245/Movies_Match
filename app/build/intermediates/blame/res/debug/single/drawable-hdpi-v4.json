@@ -124,16 +124,16 @@
         "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\drawable-hdpi-v4\\com_facebook_button_icon_blue.png"
     },
     {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png"
+    },
+    {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal.9.png",
         "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal.9.png"
     },
     {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal.9.png",
         "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png",
-        "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png"
     },
     {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_blue_xout.png",
@@ -320,12 +320,12 @@
         "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
     },
     {
-        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_button_like_icon_selected.png",
-        "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\drawable-hdpi-v4\\com_facebook_button_like_icon_selected.png"
-    },
-    {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_blue_background.9.png",
         "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\drawable-hdpi-v4\\com_facebook_tooltip_blue_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_button_like_icon_selected.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\drawable-hdpi-v4\\com_facebook_button_like_icon_selected.png"
     },
     {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png",

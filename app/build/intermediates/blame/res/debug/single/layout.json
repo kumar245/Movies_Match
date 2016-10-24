@@ -312,10 +312,13 @@
         "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\src\\main\\res\\layout\\app_bar_navigation.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\welcome_back_idp_prompt_layout.xml",
         "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.firebaseui\\firebase-ui-auth\\0.6.1\\res\\layout\\welcome_back_idp_prompt_layout.xml"
     },
     {
+=======
+>>>>>>> origin/development
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_small.xml",
         "source": "C:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\layout\\messenger_button_send_white_small.xml"
     },

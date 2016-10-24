@@ -1,5 +1,9 @@
 #Internal package file, do not edit.
+<<<<<<< HEAD
 #Mon Oct 24 01:05:57 EDT 2016
+=======
+#Sat Oct 22 13:31:27 EDT 2016
+>>>>>>> origin/development
 210.set=ANDROID_RESOURCE
 282.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\com_facebook_tooltip_blue_topnub.png
 14.set=ANDROID_RESOURCE
@@ -54,10 +58,17 @@
 186.set=ANDROID_RESOURCE
 115.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-v21\\abc_ratingbar_small_material.xml
 49.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 92.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\facebook_button.xml
 321.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\support_simple_spinner_dropdown_item.xml
 244.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_48dp.png
 167.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png
+=======
+92.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_tab_indicator_material.xml
+321.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png
+244.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\abc_primary_text_disable_only_material_light.xml
+167.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml
+>>>>>>> origin/development
 275.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 198.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 121.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
@@ -68,7 +79,11 @@
 173.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 95.set=ANDROID_RESOURCE
 100.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 271.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png
+=======
+271.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\com_facebook_tooltip_black_bottomnub.png
+>>>>>>> origin/development
 206.set=ANDROID_RESOURCE
 0.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_screen_toolbar.xml
 311.set=ANDROID_RESOURCE
@@ -76,7 +91,11 @@
 193.set=ANDROID_RESOURCE
 56.set=ANDROID_RESOURCE
 19.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+<<<<<<< HEAD
 15.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\com_facebook_auth_dialog_cancel_background.xml
+=======
+15.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_btn_borderless_material.xml
+>>>>>>> origin/development
 46.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 213.set=ANDROID_RESOURCE
 98.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
@@ -87,8 +106,13 @@
 229.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\notification_template_big_media.xml
 302.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 225.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+<<<<<<< HEAD
 204.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\com_facebook_device_auth_dialog_fragment.xml
 127.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_activity_chooser_view.xml
+=======
+204.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_dialog_material_background.xml
+127.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\switch_thumb_material_dark.xml
+>>>>>>> origin/development
 63.set=ANDROID_RESOURCE
 6.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 5.set=ANDROID_RESOURCE
@@ -105,10 +129,16 @@
 181.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\idp_button_background_email.xml
 128.set=ANDROID_RESOURCE
 70.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 339.set=ANDROID_RESOURCE
 27.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\abc_grow_fade_in_from_bottom.xml
 79.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_ic_menu_overflow_material.xml
 308.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\design_navigation_menu.xml
+=======
+27.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\fragment_firebase_login.xml
+79.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color-v23\\abc_tint_switch_thumb.xml
+308.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
+>>>>>>> origin/development
 31.set=ANDROID_RESOURCE
 339.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 54.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-anydpi-v21\\ic_google.xml
@@ -140,8 +170,13 @@
 209.set=ANDROID_RESOURCE
 87.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 10.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+<<<<<<< HEAD
 66.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png
 218.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\navigation_empty_icon.xml
+=======
+66.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_16dp.png
+218.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-v21\\rounded_button.xml
+>>>>>>> origin/development
 314.set=ANDROID_RESOURCE
 41.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_disabled.9.png
 255.set=ANDROID_RESOURCE
@@ -151,6 +186,7 @@
 93.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\abc_alert_dialog_button_bar_material.xml
 147.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 59.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 322.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\common_google_signin_btn_text_light.xml
 245.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\common_ic_googleplayservices.png
 168.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\content_navigation.xml
@@ -160,6 +196,17 @@
 297.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png
 220.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_screen_simple_overlay_action_mode.xml
 143.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\side_nav_bar.xml
+=======
+322.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\notification_template_part_time.xml
+245.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_cab_background_internal_bg.xml
+168.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png
+276.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+199.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+122.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+297.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\design_fab_in.xml
+220.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\messenger_button_send_white_round.xml
+143.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png
+>>>>>>> origin/development
 251.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 174.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 110.set=ANDROID_RESOURCE
@@ -184,11 +231,19 @@
 128.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\notification_template_media.xml
 73.set=ANDROID_RESOURCE
 7.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+<<<<<<< HEAD
 334.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml
 257.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png
 103.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color-v23\\abc_tint_edittext.xml
 232.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_textfield_search_material.xml
 155.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\mipmap-hdpi-v4\\unnamed.jpg
+=======
+334.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\common_google_signin_btn_text_dark.xml
+257.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\twitter_button.xml
+103.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_popup_menu_header_item_layout.xml
+232.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png
+155.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\abc_primary_text_material_dark.xml
+>>>>>>> origin/development
 230.set=ANDROID_RESOURCE
 284.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\com_facebook_button_like_icon_selected.png
 130.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png
@@ -197,14 +252,22 @@
 182.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\design_navigation_item_subheader.xml
 138.set=ANDROID_RESOURCE
 80.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 349.set=ANDROID_RESOURCE
 28.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\ic_visibility_off_black_24dp.png
+=======
+28.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\common_full_open_on_phone.png
+>>>>>>> origin/development
 41.set=ANDROID_RESOURCE
 55.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png
 109.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 315.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 238.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+<<<<<<< HEAD
 30.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\fragment_firebase_login.xml
+=======
+30.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim-v21\\design_bottom_sheet_slide_in.xml
+>>>>>>> origin/development
 145.set=ANDROID_RESOURCE
 213.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 82.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\abc_slide_in_bottom.xml
@@ -234,9 +297,14 @@
 324.set=ANDROID_RESOURCE
 42.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_action_menu_item_layout.xml
 265.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 348.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\idp_button_background_google.xml
 117.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\google_button.xml
 94.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\notification_template_big_media_narrow.xml
+=======
+117.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\welcome_back_password_prompt_layout.xml
+94.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\messenger_button_send_blue_small.xml
+>>>>>>> origin/development
 148.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 69.set=ANDROID_RESOURCE
 323.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\switch_thumb_material_light.xml
@@ -271,12 +339,21 @@
 129.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color-v23\\abc_tint_default.xml
 83.set=ANDROID_RESOURCE
 8.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+<<<<<<< HEAD
 335.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png
 258.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_cab_background_internal_bg.xml
 104.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png
 310.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\design_text_input_password_icon.xml
 233.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\abc_tint_default.xml
 156.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_list_menu_item_radio.xml
+=======
+335.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png
+258.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\messenger_bubble_small_blue.png
+104.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-v21\\abc_edit_text_material.xml
+310.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\common_google_signin_btn_text_light.xml
+233.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\mipmap-xxhdpi-v4\\ic_launcher.png
+156.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml
+>>>>>>> origin/development
 240.set=ANDROID_RESOURCE
 285.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\password_button.xml
 131.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png
@@ -287,7 +364,11 @@
 148.set=ANDROID_RESOURCE
 90.set=ANDROID_RESOURCE
 201.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 29.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\abc_fade_out.xml
+=======
+29.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\design_navigation_menu_item.xml
+>>>>>>> origin/development
 109.set=ANDROID_RESOURCE
 51.set=ANDROID_RESOURCE
 56.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_ic_star_black_48dp.png
@@ -324,9 +405,14 @@
 334.set=ANDROID_RESOURCE
 43.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\register_email_layout.xml
 275.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 349.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\common_google_signin_btn_text_dark.xml
 118.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\design_fab_background.xml
 95.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png
+=======
+118.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim-v21\\design_bottom_sheet_slide_out.xml
+95.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_48dp.png
+>>>>>>> origin/development
 149.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 79.set=ANDROID_RESOURCE
 324.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_light.png
@@ -335,16 +421,26 @@
 201.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 70.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png
 124.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+<<<<<<< HEAD
 299.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\common_google_signin_btn_text_light.xml
 222.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\rounded_button.xml
 145.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\notification_template_big_media.xml
+=======
+299.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png
+222.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\abc_tint_default.xml
+145.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\abc_tint_btn_checkable.xml
+>>>>>>> origin/development
 330.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 253.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 176.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 130.set=ANDROID_RESOURCE
 236.set=ANDROID_RESOURCE
 177.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 3.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_select_dialog_material.xml
+=======
+3.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\mipmap-mdpi-v4\\ic_launcher.png
+>>>>>>> origin/development
 151.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 280.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 341.set=ANDROID_RESOURCE
@@ -364,16 +460,28 @@
 93.set=ANDROID_RESOURCE
 204.set=ANDROID_RESOURCE
 9.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+<<<<<<< HEAD
 336.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_btn_default_mtrl_shape.xml
 259.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\com_facebook_tooltip_black_topnub.png
 105.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\menu\\navigation.xml
 311.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\design_fab_in.xml
 234.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\com_facebook_tooltip_blue_bottomnub.png
 157.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_focused.9.png
+=======
+259.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\messenger_button_white_bg_selector.xml
+105.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\messenger_button_send_blue_large.xml
+311.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\switch_thumb_material_light.xml
+234.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\design_snackbar_out.xml
+157.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_ic_ab_back_material.xml
+>>>>>>> origin/development
 250.set=ANDROID_RESOURCE
 286.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\com_facebook_tooltip_bubble.xml
 191.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 132.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\welcome_back_password_prompt_layout.xml
+=======
+132.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\notification_template_big_media_narrow.xml
+>>>>>>> origin/development
 54.set=ANDROID_RESOURCE
 261.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\design_menu_item_action_area.xml
 184.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\com_facebook_button_send_icon_blue.png
@@ -389,7 +497,11 @@
 165.set=ANDROID_RESOURCE
 63.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 215.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+<<<<<<< HEAD
 84.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_focused.9.png
+=======
+84.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\facebook_button.xml
+>>>>>>> origin/development
 138.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 22.set=ANDROID_RESOURCE
 344.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
@@ -401,14 +513,21 @@
 126.set=ANDROID_RESOURCE
 294.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 140.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+<<<<<<< HEAD
 273.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml
 196.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\messenger_button_send_blue_round.xml
 337.set=ANDROID_RESOURCE
 171.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\menu\\menu_main.xml
+=======
+273.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png
+196.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png
+171.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\ic_twitter.png
+>>>>>>> origin/development
 278.set=ANDROID_RESOURCE
 38.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 133.set=ANDROID_RESOURCE
 239.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 17.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_btn_borderless_material.xml
 13.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 69.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-v21\\ic_menu_share.xml
@@ -420,6 +539,18 @@
 89.set=ANDROID_RESOURCE
 325.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-mdpi-v4\\com_facebook_profile_picture_blank_square.png
 248.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\sign_in_layout.xml
+=======
+17.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\messenger_button_blue_bg_selector.xml
+13.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+69.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\abc_slide_out_bottom.xml
+44.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\com_facebook_send_button_icon.xml
+285.set=ANDROID_RESOURCE
+119.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_activity_chooser_view.xml
+96.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color-v23\\abc_tint_edittext.xml
+89.set=ANDROID_RESOURCE
+325.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\forgot_password_layout.xml
+248.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-v23\\abc_control_background_material.xml
+>>>>>>> origin/development
 279.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 202.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 71.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png
@@ -435,7 +566,11 @@
 140.set=ANDROID_RESOURCE
 246.set=ANDROID_RESOURCE
 187.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 4.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png
+=======
+4.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_list_selector_holo_light.xml
+>>>>>>> origin/development
 152.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 281.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 292.set=ANDROID_RESOURCE
@@ -455,6 +590,7 @@
 337.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\design_snackbar_in.xml
 106.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\mipmap-xxxhdpi-v4\\ic_launcher.png
 18.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 312.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\abc_primary_text_disable_only_material_dark.xml
 235.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\design_layout_snackbar.xml
 158.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\abc_tint_btn_checkable.xml
@@ -465,6 +601,18 @@
 64.set=ANDROID_RESOURCE
 262.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\design_layout_tab_text.xml
 185.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml
+=======
+312.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-mdpi-v4\\com_facebook_profile_picture_blank_square.png
+235.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\sign_in_layout.xml
+158.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png
+260.set=ANDROID_RESOURCE
+287.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_seekbar_tick_mark_material.xml
+210.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_disabled.9.png
+133.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_normal.9.png
+64.set=ANDROID_RESOURCE
+262.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_ratingbar_indicator_material.xml
+185.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_right_mtrl_light.png
+>>>>>>> origin/development
 6.set=ANDROID_RESOURCE
 160.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\com_facebook_button_icon.xml
 168.set=ANDROID_RESOURCE
@@ -477,7 +625,11 @@
 33.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png
 64.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 216.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+<<<<<<< HEAD
 85.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\app_bar_navigation.xml
+=======
+85.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\signin_no_password_layout.xml
+>>>>>>> origin/development
 139.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 32.set=ANDROID_RESOURCE
 345.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
@@ -495,26 +647,43 @@
 197.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color-v23\\abc_tint_spinner.xml
 120.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\logo_googleg_color_18dp.png
 270.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+<<<<<<< HEAD
 347.set=ANDROID_RESOURCE
 172.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png
+=======
+172.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_item_background_holo_light.xml
+>>>>>>> origin/development
 288.set=ANDROID_RESOURCE
 39.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 308.set=ANDROID_RESOURCE
 143.set=ANDROID_RESOURCE
 249.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 18.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\common_google_signin_btn_text_dark.xml
+=======
+18.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\design_layout_tab_icon.xml
+>>>>>>> origin/development
 14.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 45.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\notification_template_part_chronometer.xml
 295.set=ANDROID_RESOURCE
 228.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 99.set=ANDROID_RESOURCE
 104.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 97.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\com_facebook_button_like_background.xml
 20.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\messenger_button_blue_bg_selector.xml
 326.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v21\\abc_screen_toolbar.xml
 249.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png
 203.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 72.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_cab_background_top_material.xml
+=======
+97.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\mipmap-xxxhdpi-v4\\ic_launcher.png
+20.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\design_fab_out.xml
+326.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\abc_tint_spinner.xml
+249.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\design_menu_item_action_area.xml
+203.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+72.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\notification_template_lines.xml
+>>>>>>> origin/development
 126.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 301.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\messenger_bubble_large_blue.png
 224.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-v21\\ic_menu_camera.xml
@@ -547,18 +716,30 @@
 107.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_ic_clear_material.xml
 28.set=ANDROID_RESOURCE
 80.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+<<<<<<< HEAD
 313.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png
 236.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color-v23\\abc_tint_switch_track.xml
 159.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_vector_test.xml
+=======
+313.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v21\\abc_screen_toolbar.xml
+236.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal.9.png
+159.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_btn_radio_material.xml
+>>>>>>> origin/development
 270.set=ANDROID_RESOURCE
 288.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png
 211.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\messenger_button_white_bg_round.xml
 134.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal.9.png
 74.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 340.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\design_navigation_item.xml
 263.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-v23\\abc_control_background_material.xml
 186.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\abc_slide_in_top.xml
 161.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_action_bar_up_container.xml
+=======
+263.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png
+186.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\abc_btn_colored_borderless_text_material.xml
+161.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png
+>>>>>>> origin/development
 192.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 290.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png
 231.set=ANDROID_RESOURCE
@@ -568,7 +749,11 @@
 81.set=ANDROID_RESOURCE
 59.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png
 319.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+<<<<<<< HEAD
 34.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png
+=======
+34.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\select_dialog_singlechoice_material.xml
+>>>>>>> origin/development
 65.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 217.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 86.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png
@@ -585,6 +770,7 @@
 146.set=ANDROID_RESOURCE
 296.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 142.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+<<<<<<< HEAD
 275.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\abc_tint_edittext.xml
 198.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color-v23\\design_tint_password_toggle.xml
 121.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\design_navigation_item_header.xml
@@ -592,6 +778,15 @@
 0.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 250.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\com_facebook_device_auth_dialog_fragment.xml
 173.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png
+=======
+275.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\com_facebook_tooltip_bubble.xml
+198.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\email_hint_container_layout.xml
+121.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color-v23\\abc_tint_default.xml
+271.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+0.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+250.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\design_layout_tab_text.xml
+173.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png
+>>>>>>> origin/development
 298.set=ANDROID_RESOURCE
 107.set=ANDROID_RESOURCE
 318.set=ANDROID_RESOURCE
@@ -600,6 +795,7 @@
 19.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\design_layout_tab_icon.xml
 15.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 10.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 46.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png
 229.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 114.set=ANDROID_RESOURCE
@@ -608,6 +804,16 @@
 327.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-ldrtl-xhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png
 204.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 73.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\abc_slide_out_bottom.xml
+=======
+46.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_focused.9.png
+229.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+114.set=ANDROID_RESOURCE
+98.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\com_facebook_auth_dialog_header_background.xml
+21.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_popup_menu_item_layout.xml
+327.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\select_dialog_singlechoice_material.xml
+204.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+73.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\design_bottom_sheet_dialog.xml
+>>>>>>> origin/development
 127.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 302.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\messenger_button_send_white_small.xml
 225.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml
@@ -635,8 +841,12 @@ count=350
 54.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 234.set=ANDROID_RESOURCE
 175.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 339.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\forgot_password_layout.xml
 108.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\com_facebook_auth_dialog_header_background.xml
+=======
+108.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\google_button.xml
+>>>>>>> origin/development
 38.set=ANDROID_RESOURCE
 81.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 314.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\messenger_button_send_round_shadow.png
@@ -646,11 +856,18 @@ count=350
 212.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\com_facebook_favicon_white.png
 135.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_screen_simple.xml
 84.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 341.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\abc_tint_spinner.xml
 264.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\select_dialog_item_material.xml
 187.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml
 110.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_dialog_title_material.xml
 162.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png
+=======
+264.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_48dp.png
+187.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim-v21\\design_appbar_state_list_animator.xml
+110.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\design_fab_background.xml
+162.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\notification_template_part_time.xml
+>>>>>>> origin/development
 193.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 300.set=ANDROID_RESOURCE
 291.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png
@@ -660,11 +877,19 @@ count=350
 149.set=ANDROID_RESOURCE
 91.set=ANDROID_RESOURCE
 202.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 35.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\design_navigation_item_separator.xml
 66.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 218.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 87.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\com_facebook_tooltip_black_background.9.png
 10.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\com_facebook_button_background.xml
+=======
+35.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png
+66.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+218.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+87.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\messenger_bubble_large_blue.png
+10.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_focused.9.png
+>>>>>>> origin/development
 41.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 52.set=ANDROID_RESOURCE
 347.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
@@ -678,6 +903,7 @@ count=350
 297.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 220.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 143.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+<<<<<<< HEAD
 276.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_ratingbar_indicator_material.xml
 199.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_edit_text_material.xml
 122.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_list_menu_item_layout.xml
@@ -686,6 +912,16 @@ count=350
 1.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 251.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_action_bar_view_list_nav_layout.xml
 174.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\abc_primary_text_material_dark.xml
+=======
+276.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\common_google_signin_btn_icon_light.xml
+199.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color-v23\\abc_tint_btn_checkable.xml
+122.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\welcome_back_password_prompt_layout.xml
+272.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+13.set=ANDROID_RESOURCE
+1.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+251.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-ldrtl-xxhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png
+174.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_switch_thumb_material.xml
+>>>>>>> origin/development
 117.set=ANDROID_RESOURCE
 1.set=ANDROID_RESOURCE
 328.set=ANDROID_RESOURCE
@@ -696,8 +932,13 @@ count=350
 47.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\com_facebook_send_button_icon.xml
 22.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\design_fab_out.xml
 124.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 99.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_tab_indicator_material.xml
 328.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png
+=======
+99.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_ic_clear_material.xml
+328.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\abc_popup_enter.xml
+>>>>>>> origin/development
 205.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 74.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png
 128.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
@@ -726,7 +967,11 @@ count=350
 244.set=ANDROID_RESOURCE
 30.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 185.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 109.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\idp_button_background_facebook.xml
+=======
+109.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png
+>>>>>>> origin/development
 48.set=ANDROID_RESOURCE
 82.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 315.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_action_menu_layout.xml
@@ -736,12 +981,20 @@ count=350
 136.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\switch_thumb_material_dark.xml
 94.set=ANDROID_RESOURCE
 205.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 342.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\select_dialog_singlechoice_material.xml
 265.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-mdpi-v4\\com_facebook_profile_picture_blank_portrait.png
 188.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_item_background_holo_light.xml
 111.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_popup_menu_header_item_layout.xml
 240.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_screen_content_include.xml
 163.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\design_ic_visibility.xml
+=======
+265.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\design_bottom_sheet_slide_out.xml
+188.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png
+111.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\welcome_back_idp_prompt_layout.xml
+240.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png
+163.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\idp_button_background_email.xml
+>>>>>>> origin/development
 194.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 310.set=ANDROID_RESOURCE
 292.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\idp_button_facebook.xml
@@ -776,32 +1029,57 @@ count=350
 123.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png
 23.set=ANDROID_RESOURCE
 2.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+<<<<<<< HEAD
 252.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_search_dropdown_item_icons_2line.xml
 175.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml
 150.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png
+=======
+252.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-ldrtl-xxhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png
+175.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png
+150.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_item_background_holo_dark.xml
+>>>>>>> origin/development
 127.set=ANDROID_RESOURCE
 338.set=ANDROID_RESOURCE
 279.set=ANDROID_RESOURCE
 30.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 48.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png
 23.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_popup_menu_item_layout.xml
 134.set=ANDROID_RESOURCE
 329.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png
+=======
+48.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png
+23.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-anydpi-v21\\ic_twitter.xml
+134.set=ANDROID_RESOURCE
+329.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\messenger_bubble_large_white.png
+>>>>>>> origin/development
 206.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 75.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\abc_tint_seek_thumb.xml
 129.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+<<<<<<< HEAD
 304.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\com_facebook_tooltip_blue_xout.png
 227.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_sign_in_with__email.xml
 335.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 258.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 50.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_list_selector_holo_dark.xml
+=======
+304.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\abc_tint_switch_track.xml
+227.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_screen_content_include.xml
+335.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+258.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+50.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\auth_method_picker_layout.xml
+>>>>>>> origin/development
 104.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 345.set=ANDROID_RESOURCE
 286.set=ANDROID_RESOURCE
 310.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 233.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 156.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+<<<<<<< HEAD
 8.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\design_error.xml
+=======
+8.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\com_facebook_auth_dialog_background.xml
+>>>>>>> origin/development
 285.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 131.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 260.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
@@ -822,19 +1100,32 @@ count=350
 31.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 58.set=ANDROID_RESOURCE
 83.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+<<<<<<< HEAD
 316.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\delete_credential.xml
 239.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\abc_dialog_title_material.xml
 62.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml
 214.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color-v23\\abc_tint_btn_checkable.xml
 137.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png
+=======
+316.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_alert_dialog_material.xml
+239.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_action_bar_view_list_nav_layout.xml
+62.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\abc_shrink_fade_out_from_bottom.xml
+214.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png
+137.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\logo_googleg_color_18dp.png
+>>>>>>> origin/development
 215.set=ANDROID_RESOURCE
 343.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\ic_email_white_18dp.png
 266.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png
 189.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-ldrtl-xhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png
 112.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-v21\\abc_edit_text_material.xml
 19.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 241.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\sign_in_layout.xml
 164.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_text_cursor_material.xml
+=======
+241.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_search_dropdown_item_icons_2line.xml
+164.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-v21\\abc_action_bar_item_background_material.xml
+>>>>>>> origin/development
 195.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 320.set=ANDROID_RESOURCE
 293.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\notification_media_cancel_action.xml
@@ -846,10 +1137,17 @@ count=350
 169.set=ANDROID_RESOURCE
 222.set=ANDROID_RESOURCE
 26.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 37.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\abc_slide_out_top.xml
 68.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 89.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png
 12.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\com_facebook_auth_dialog_background.xml
+=======
+37.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color-v23\\abc_tint_seek_thumb.xml
+68.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+89.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\notification_template_big_media_narrow.xml
+12.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\com_facebook_auth_dialog_cancel_background.xml
+>>>>>>> origin/development
 43.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 72.set=ANDROID_RESOURCE
 349.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
@@ -863,6 +1161,7 @@ count=350
 222.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 145.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 170.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 278.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\design_bottom_sheet_slide_out.xml
 201.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\activity_sign_in_with__email.xml
 124.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
@@ -872,11 +1171,23 @@ count=350
 253.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\ic_facebook.png
 176.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_ic_ab_back_material.xml
 151.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\com_facebook_activity_layout.xml
+=======
+278.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\messenger_button_send_round_shadow.png
+201.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\com_facebook_tooltip_blue_background.9.png
+124.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_list_focused_holo.9.png
+33.set=ANDROID_RESOURCE
+3.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+330.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\design_layout_snackbar_include.xml
+253.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\select_dialog_item_material.xml
+176.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png
+151.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_36dp.png
+>>>>>>> origin/development
 137.set=ANDROID_RESOURCE
 280.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\select_dialog_multichoice_material.xml
 348.set=ANDROID_RESOURCE
 289.set=ANDROID_RESOURCE
 40.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 49.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_action_mode_bar.xml
 309.set=ANDROID_RESOURCE
 309.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
@@ -886,13 +1197,27 @@ count=350
 76.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\notification_template_lines.xml
 305.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\menu\\activity_navigation_drawer.xml
 336.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+=======
+49.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_list_selector_holo_dark.xml
+309.set=ANDROID_RESOURCE
+309.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+24.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png
+144.set=ANDROID_RESOURCE
+207.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+76.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_main.xml
+305.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_btn_check_material.xml
+>>>>>>> origin/development
 259.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
-51.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\auth_method_picker_layout.xml
+51.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png
 105.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 296.set=ANDROID_RESOURCE
 311.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 234.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+<<<<<<< HEAD
 9.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\com_facebook_send_button_text_color.xml
+=======
+9.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png
+>>>>>>> origin/development
 157.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 105.set=ANDROID_RESOURCE
 286.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
@@ -911,6 +1236,7 @@ count=350
 32.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 68.set=ANDROID_RESOURCE
 84.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+<<<<<<< HEAD
 317.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\abc_tint_switch_track.xml
 63.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\abc_popup_exit.xml
 215.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_list_menu_item_icon.xml
@@ -923,6 +1249,19 @@ count=350
 90.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\notification_template_media.xml
 242.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\com_facebook_login_fragment.xml
 165.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_item_background_holo_dark.xml
+=======
+317.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_ic_voice_search_api_material.xml
+63.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png
+215.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_sign_in_with__email.xml
+138.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png
+225.set=ANDROID_RESOURCE
+267.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\abc_alert_dialog_material.xml
+113.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\design_navigation_item_header.xml
+29.set=ANDROID_RESOURCE
+90.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-v21\\abc_ratingbar_material.xml
+242.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png
+165.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\design_navigation_item_subheader.xml
+>>>>>>> origin/development
 273.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 196.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 330.set=ANDROID_RESOURCE
@@ -949,6 +1288,7 @@ count=350
 223.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 146.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 180.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 279.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\abc_alert_dialog_material.xml
 202.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim-v21\\design_appbar_state_list_animator.xml
 125.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim-v21\\design_bottom_sheet_slide_out.xml
@@ -958,6 +1298,17 @@ count=350
 254.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\com_facebook_button_login_silver_background.xml
 177.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_btn_radio_material.xml
 100.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\design_snackbar_background.xml
+=======
+279.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\ic_visibility_off_black_24dp.png
+202.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\select_dialog_multichoice_material.xml
+125.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_list_divider_mtrl_alpha.9.png
+43.set=ANDROID_RESOURCE
+4.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+331.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\notification_template_part_chronometer.xml
+254.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-mdpi-v4\\com_facebook_profile_picture_blank_portrait.png
+177.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\abc_tint_switch_thumb.xml
+100.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png
+>>>>>>> origin/development
 147.set=ANDROID_RESOURCE
 152.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_spinner_textfield_background_material.xml
 200.set=ANDROID_RESOURCE
@@ -966,7 +1317,11 @@ count=350
 108.set=ANDROID_RESOURCE
 50.set=ANDROID_RESOURCE
 319.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 25.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\messenger_bubble_small_blue.png
+=======
+25.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\abc_grow_fade_in_from_bottom.xml
+>>>>>>> origin/development
 154.set=ANDROID_RESOURCE
 208.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 77.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\design_bottom_sheet_dialog.xml
@@ -996,8 +1351,13 @@ count=350
 33.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 78.set=ANDROID_RESOURCE
 85.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+<<<<<<< HEAD
 318.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_btn_check_material.xml
 64.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png
+=======
+318.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml
+64.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\com_facebook_close.png
+>>>>>>> origin/development
 60.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 216.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\com_facebook_tooltip_blue_background.9.png
 139.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_ic_search_api_material.xml
@@ -1005,7 +1365,11 @@ count=350
 345.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\design_layout_snackbar_include.xml
 268.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\raw\\wildlife.wmv
 176.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 114.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\messenger_button_send_blue_large.xml
+=======
+114.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png
+>>>>>>> origin/development
 39.set=ANDROID_RESOURCE
 91.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\signin_no_password_layout.xml
 320.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
@@ -1026,8 +1390,13 @@ count=350
 183.set=ANDROID_RESOURCE
 46.set=ANDROID_RESOURCE
 18.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
+<<<<<<< HEAD
 39.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color-v23\\abc_tint_seek_thumb.xml
 14.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\abc_secondary_text_material_light.xml
+=======
+39.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png
+14.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_16dp.png
+>>>>>>> origin/development
 45.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 92.set=ANDROID_RESOURCE
 203.set=ANDROID_RESOURCE
@@ -1040,8 +1409,13 @@ count=350
 301.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 224.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 190.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 203.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\abc_btn_colored_borderless_text_material.xml
 126.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\welcome_back_password_prompt_layout.xml
+=======
+203.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\navigation_empty_icon.xml
+126.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_screen_simple.xml
+>>>>>>> origin/development
 53.set=ANDROID_RESOURCE
 5.base=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_
 332.file=C\:\\Users\\User\\AndroidStudioProjects\\Movies_Match\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_ic_voice_search_api_material.xml

@@ -5,9 +5,15 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.2"
+<<<<<<< HEAD
     timestamp="16515120355498"
     token="-7685071433241445506"
     verifier="COMPATIBLE" >
+=======
+    timestamp="479857972412832"
+    token="-7685071433241445506"
+    verifier="COLD_SWAP_REQUESTED" >
+>>>>>>> origin/development
 
     <task
         name="javac"
@@ -27,13 +33,18 @@
         type="RESOURCES" />
 
     <build
+<<<<<<< HEAD
         timestamp="15644396312096"
+=======
+        timestamp="479830014312179"
+>>>>>>> origin/development
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\User\AndroidStudioProjects\Movies_Match\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
+<<<<<<< HEAD
         timestamp="16122010243912"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
@@ -54,5 +65,9 @@
             location="C:\Users\User\AndroidStudioProjects\Movies_Match\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
             type="RESOURCES" />
     </build>
+=======
+        timestamp="479857972412832"
+        verifier="COLD_SWAP_REQUESTED" />
+>>>>>>> origin/development
 
 </instant-run>
