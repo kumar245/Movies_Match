@@ -1,9 +1,7 @@
 
 .gradle/
 build/
-app/build/*
-/app/build/*
-app\build\*
+app/build/
 # Built application files
 *.apk
 *.ap_
