@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-#Mon Oct 24 01:05:57 EDT 2016
-=======
-#Sat Oct 22 13:31:26 EDT 2016
->>>>>>> origin/development
