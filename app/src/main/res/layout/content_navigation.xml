@@ -12,6 +12,10 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.mac.fireflies.wgt.moviematch.Navigation"
     tools:showIn="@layout/app_bar_navigation">
-    <include layout="@layout/content_main" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/myContainer"></RelativeLayout>
+
 
 </RelativeLayout>

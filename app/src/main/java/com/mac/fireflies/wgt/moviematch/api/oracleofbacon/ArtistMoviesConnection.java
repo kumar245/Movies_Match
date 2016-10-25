@@ -4,7 +4,6 @@ package com.mac.fireflies.wgt.moviematch.api.oracleofbacon;
 import android.content.Intent;
 import android.widget.Toast;
 
-import com.mac.fireflies.wgt.moviematch.MainActivity;
 import com.mac.fireflies.wgt.moviematch.network.RetrofitApiService;
 import com.mac.fireflies.wgt.moviematch.network.RetrofitClient;
 
@@ -25,7 +24,7 @@ public class ArtistMoviesConnection {
     static RetrofitApiService retrofitApiService = RetrofitClient.getApiService();
     static final List<PojoArtistMoviesConnection> connection  = new ArrayList<>();
 
-    public static void findConnection(String artist1, String artist2, final MainActivity.AdapterArtistMovieConnection adapter) {
+    public static void findConnection(String artist1, String artist2, final FindConnectionsArtist.AdapterArtistMovieConnection adapter) {
         final Call<PojoArtistMoviesConnection> list = retrofitApiService.getMyJSON(URL_KEY + "&a="+artist1 +"&b="+artist2);
         list.enqueue(new Callback<PojoArtistMoviesConnection>() {
             @Override

@@ -3,19 +3,19 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_match"
             android:icon="@drawable/ic_menu_camera"
             android:title="Match Artist" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/recent_watched"
             android:icon="@drawable/ic_menu_gallery"
             android:title="Recently Watched" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/category"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Category" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/favorites"
             android:icon="@drawable/ic_menu_manage"
             android:title="My Favourites" />
     </group>
@@ -27,7 +27,7 @@
                 android:icon="@drawable/ic_menu_share"
                 android:title="My Account" />
             <item
-                android:id="@+id/nav_send"
+                android:id="@+id/sing_out"
                 android:icon="@drawable/ic_menu_send"
                 android:title="Sign Out" />
         </menu>
