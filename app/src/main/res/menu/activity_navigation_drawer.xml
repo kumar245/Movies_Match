@@ -9,7 +9,7 @@
         <item
             android:id="@+id/recent_watched"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Recently Watched" />
+            android:title="Recently Search" />
         <item
             android:id="@+id/category"
             android:icon="@drawable/ic_menu_slideshow"

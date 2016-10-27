@@ -124,12 +124,25 @@ public class Navigation extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_match) {
+            FindConnectionsArtistFragment findConnectionsArtistFragment = FindConnectionsArtistFragment.newInstance("Leonardo Di Caprio", "Eminem");
+            getSupportFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.myContainer, findConnectionsArtistFragment)
+                    .commit();
             // Handle the camera action
         } else if (id == R.id.recent_watched) {
-
+            RecentlyWatched recentlyWatched=new RecentlyWatched();
+            getSupportFragmentManager().beginTransaction().replace(R.id.myContainer,recentlyWatched).commit();
         } else if (id == R.id.category) {
+            Category category = new Category();
+            getSupportFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.myContainer,category )
+                    .commit();
 
         } else if (id == R.id.favorites) {
+            MyFavourites myFavourites=new MyFavourites();
+            getSupportFragmentManager().beginTransaction().replace(R.id.myContainer,myFavourites).commit();
 
         } else if (id == R.id.nav_share) {
 
