@@ -1,4 +1,4 @@
-package com.mac.fireflies.wgt.moviematch.api.oracleofbacon;
+package com.mac.fireflies.wgt.moviematch;
 
 import android.content.Context;
 import android.net.Uri;
@@ -11,9 +11,12 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.TextView;
 
-import com.mac.fireflies.wgt.moviematch.R;
+import com.bumptech.glide.Glide;
+import com.mac.fireflies.wgt.moviematch.api.oracleofbacon.ArtistMoviesConnection;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,12 +24,12 @@ import java.util.List;
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link FindConnectionsArtist.OnFragmentInteractionListener} interface
+ * {@link FindConnectionsArtistFragment.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link FindConnectionsArtist#newInstance} factory method to
+ * Use the {@link FindConnectionsArtistFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class FindConnectionsArtist extends Fragment {
+public class FindConnectionsArtistFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -40,7 +43,7 @@ public class FindConnectionsArtist extends Fragment {
 
     ListView listView;
 
-    public FindConnectionsArtist() {
+    public FindConnectionsArtistFragment() {
         // Required empty public constructor
     }
 
@@ -50,11 +53,11 @@ public class FindConnectionsArtist extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment FindConnectionsArtist.
+     * @return A new instance of fragment FindConnectionsArtistFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static FindConnectionsArtist newInstance(String param1, String param2) {
-        FindConnectionsArtist fragment = new FindConnectionsArtist();
+    public static FindConnectionsArtistFragment newInstance(String param1, String param2) {
+        FindConnectionsArtistFragment fragment = new FindConnectionsArtistFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -117,7 +120,7 @@ public class FindConnectionsArtist extends Fragment {
             @Override
             public void onClick(View v) {
 
-                final FindConnectionsArtist.AdapterArtistMovieConnection adapter = new FindConnectionsArtist.AdapterArtistMovieConnection(v.getContext(),
+                final FindConnectionsArtistFragment.AdapterArtistMovieConnection adapter = new FindConnectionsArtistFragment.AdapterArtistMovieConnection(v.getContext(),
                         android.R.layout.simple_list_item_1,
                         new ArrayList<String>());
                 ArtistMoviesConnection
@@ -165,7 +168,30 @@ public class FindConnectionsArtist extends Fragment {
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
 
-            return super.getView(position, convertView, parent);
+            View view = convertView;
+            LayoutInflater inflater = (LayoutInflater) getContext().getSystemService(
+                    Context.LAYOUT_INFLATER_SERVICE
+            );
+            view = inflater.inflate(R.layout.movie_listview, null);
+
+            TextView textView = (TextView) view.findViewById(R.id.movie_textView);
+            ImageView imageView = (ImageView) view.findViewById(R.id.movie_imageView);
+
+            if (position %2 !=0) {
+
+                textView.setVisibility(View.INVISIBLE);
+                Glide
+                        .with(FindConnectionsArtistFragment.this)
+                        .load(getItem(position))
+                        .into(imageView);
+            }
+            else{
+                textView.setText(getItem(position));
+                imageView.setVisibility(View.INVISIBLE);
+
+            }
+
+            return view;
         }
     }
 }

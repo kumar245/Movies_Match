@@ -9,16 +9,14 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.mac.fireflies.wgt.moviematch.api.oracleofbacon.FindConnectionsArtist;
-
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        FindConnectionsArtist findConnectionsArtist = new FindConnectionsArtist();
+        FindConnectionsArtistFragment findConnectionsArtistFragment = new FindConnectionsArtistFragment();
 
-        setContentView(findConnectionsArtist.getView());
+        setContentView(findConnectionsArtistFragment.getView());
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
 
         setSupportActionBar(toolbar);

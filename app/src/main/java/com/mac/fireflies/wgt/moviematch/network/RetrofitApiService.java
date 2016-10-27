@@ -1,6 +1,8 @@
 package com.mac.fireflies.wgt.moviematch.network;
 
 import com.mac.fireflies.wgt.moviematch.api.oracleofbacon.PojoArtistMoviesConnection;
+import com.mac.fireflies.wgt.moviematch.api.themoviedb.PojoMovie;
+import com.mac.fireflies.wgt.moviematch.api.themoviedb.PojoSearchMovie;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
@@ -15,5 +17,11 @@ public interface RetrofitApiService {
    And our method that will return us the List of ContactList
    */
     @GET
-    Call<PojoArtistMoviesConnection> getMyJSON(@Url String url);
+    Call<PojoArtistMoviesConnection> getOracleofBaconJSON(@Url String url);
+
+    @GET
+    Call<PojoMovie> getTheMovieDBJSON(@Url String url);
+
+    @GET
+    Call<PojoSearchMovie> getSeachMovieJSON(@Url String url);
 }
