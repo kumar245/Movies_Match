@@ -5,4 +5,10 @@ package com.mac.fireflies.wgt.moviematch.model;
  */
 
 public class Movie {
+    public String imdbId;
+    public String posterPath;
+    public String originalLanguage;
+    public String originalTitle;
+    public String overview;
+
 }

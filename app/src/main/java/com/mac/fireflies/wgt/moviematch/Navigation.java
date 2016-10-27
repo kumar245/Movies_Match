@@ -23,6 +23,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.FirebaseDatabase;
+import com.mac.fireflies.wgt.moviematch.model.Movie;
 
 public class Navigation extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, FindConnectionsArtistFragment.OnFragmentInteractionListener {
@@ -31,6 +32,7 @@ public class Navigation extends AppCompatActivity
     FirebaseUser auth;
 
     FirebaseDatabase database = FirebaseDatabase.getInstance();
+    Movie movie=new Movie();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,6 +66,12 @@ public class Navigation extends AppCompatActivity
                 .commit();
 
         fireBaseLogin();
+        movie.imdbId = "65655";
+        movie.posterPath="http://cdn.collider.com/wp-content/uploads/amazing-spider-man-movie-poster.jpg";
+        movie.originalLanguage="English";
+        movie.originalTitle="SPIDER MAN";
+        movie.overview="Description";
+
     }
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -135,6 +143,7 @@ public class Navigation extends AppCompatActivity
             getSupportFragmentManager().beginTransaction().replace(R.id.myContainer,recentlyWatched).commit();
         } else if (id == R.id.category) {
             Category category = new Category();
+
             getSupportFragmentManager()
                     .beginTransaction()
                     .replace(R.id.myContainer,category )
