@@ -60,8 +60,13 @@ public class DatabaseUserUtil {
             @Override
             public void onResponse(Call<PojoSearchMovie> call, Response<PojoSearchMovie> response) {
                 if (response.isSuccessful()) {
-
-                    poster.setValue("https://image.tmdb.org/t/p/w300_and_h450_bestv2" + (response.body().results.get(0)).posterPath);
+                    String posterPath = "";
+                    if (response.body().results.size() == 0) {
+                        posterPath = "http://www.baudettemovies.com/BT-moviepopcorn.jpg";
+                    }
+                    else
+                        posterPath = ((PojoSearchMovie.Result)response.body().results.get(0)).posterPath;
+                    poster.setValue("https://image.tmdb.org/t/p/w300_and_h450_bestv2" + posterPath);
                 }
                     Log.d("TheMovieDB ==> ",
                             "We found a connection");
