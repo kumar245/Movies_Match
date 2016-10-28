@@ -1,6 +1,7 @@
 package com.mac.fireflies.wgt.moviematch;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -12,9 +13,11 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.firebase.ui.auth.AuthUI;
@@ -23,6 +26,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.FirebaseDatabase;
+import com.mac.fireflies.wgt.moviematch.model.Movie;
 
 public class Navigation extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, FindConnectionsArtistFragment.OnFragmentInteractionListener {
@@ -32,12 +36,14 @@ public class Navigation extends AppCompatActivity
 
     FirebaseDatabase database = FirebaseDatabase.getInstance();
     FindConnectionsArtistFragment findConnectionsArtistFragment;
+    Movie movie=new Movie();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navigation);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setBackgroundColor(Color.GRAY);
         setSupportActionBar(toolbar);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
@@ -84,6 +90,27 @@ public class Navigation extends AppCompatActivity
 //
 //            }
 //        }
+        Log.d("sadf",auth.getEmail());
+//        Log.d("abce",auth.getUid());
+//        TextView username=(TextView) navigationView.getHeaderView(0).findViewById(R.id.uid);
+      TextView email = (TextView) navigationView.getHeaderView(0).findViewById(R.id.textView);
+//        username.setText(auth.getUid());
+        email.setText(auth.getEmail());
+        auth.getEmail();
+//        auth.getUid();
+
+        auth.getDisplayName();
+
+        TextView username=(TextView) navigationView.getHeaderView(0).findViewById(R.id.uid);
+
+
+
+        movie.imdbId = "65655";
+        movie.posterPath="http://cdn.collider.com/wp-content/uploads/amazing-spider-man-movie-poster.jpg";
+        movie.originalLanguage="English";
+        movie.originalTitle="SPIDER MAN";
+        movie.overview="Description";
+
     }
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -150,12 +177,26 @@ public class Navigation extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_match) {
+            FindConnectionsArtistFragment findConnectionsArtistFragment = FindConnectionsArtistFragment.newInstance("Leonardo Di Caprio", "Eminem");
+            getSupportFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.myContainer, findConnectionsArtistFragment)
+                    .commit();
             // Handle the camera action
         } else if (id == R.id.recent_watched) {
-
+            RecentlyWatched recentlyWatched=new RecentlyWatched();
+            getSupportFragmentManager().beginTransaction().replace(R.id.myContainer,recentlyWatched).commit();
         } else if (id == R.id.category) {
+            Category category = new Category();
+
+            getSupportFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.myContainer,category )
+                    .commit();
 
         } else if (id == R.id.favorites) {
+            MyFavourites myFavourites=new MyFavourites();
+            getSupportFragmentManager().beginTransaction().replace(R.id.myContainer,myFavourites).commit();
 
         } else if (id == R.id.nav_share) {
 
