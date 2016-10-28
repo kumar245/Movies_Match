@@ -1,8 +1,7 @@
 package com.mac.fireflies.wgt.moviematch;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.ArrayAdapter;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
@@ -57,7 +56,7 @@ String[] categories = {"Action","Romance","Adventure","Kids","Animation"};
         listView.setAdapter(list_adapter);
 
         Add=(Button) findViewById(R.id.add);
-        movie.imdbId = "65655";
+        movie.id = "65655";
         movie.posterPath="http://cdn.collider.com/wp-content/uploads/amazing-spider-man-movie-poster.jpg";
         movie.originalLanguage="English";
         movie.originalTitle="SPIDER MAN";
@@ -76,7 +75,7 @@ List<Movie> mov=new ArrayList<>();
 
         Title.setText(movie.originalTitle);
         Language.setText(movie.originalLanguage);
-        OverView.setText(movie.imdbId);
+        OverView.setText(movie.id);
         AddtoCategory.setText(movie.overview);
 
         Glide

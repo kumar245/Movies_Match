@@ -1,6 +1,7 @@
 package com.mac.fireflies.wgt.moviematch;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -8,13 +9,12 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.mac.fireflies.wgt.moviematch.api.oracleofbacon.ArtistMoviesConnection;
@@ -133,7 +133,13 @@ public class FindConnectionsArtistFragment extends Fragment {
                     }
                     else if(position % 2 != 0){
 
-                        Toast.makeText(getContext(), "Pelicula", Toast.LENGTH_LONG).show();
+                        Intent i = new Intent(getContext(), MovieOverview.class);
+//                        if (FindConnectionsArtistFragment.listView != null){
+//                            PojoSearchMovie aux = FindConnectionsArtistFragment.listView.findMoviebyURI(((HintImageView)view.findViewById(R.id.movie_imageView)).hint);
+//                            if (aux != null)
+//                                Navigation.movie = new Movie(aux);
+//                        }
+                        startActivity(i);
                     }
                 }
 
@@ -147,7 +153,10 @@ public class FindConnectionsArtistFragment extends Fragment {
                         android.R.layout.simple_list_item_1,
                         new ArrayList<String>());
 
-
+                textViewArtist1.clearFocus();
+                textViewArtist2.clearFocus();
+                InputMethodManager imm = (InputMethodManager) view.getContext().getSystemService(Context.INPUT_METHOD_SERVICE);
+                imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
                 ArtistMoviesConnection
                         .findConnection(textViewArtist1.getText().toString(), textViewArtist2.getText().toString(), adapter);
 
@@ -204,7 +213,7 @@ public class FindConnectionsArtistFragment extends Fragment {
             view = inflater.inflate(R.layout.movie_listview, null);
 
             TextView textView = (TextView) view.findViewById(R.id.movie_textView);
-            ImageView imageView = (ImageView) view.findViewById(R.id.movie_imageView);
+            HintImageView imageView = (HintImageView) view.findViewById(R.id.movie_imageView);
 
             if (position %2 !=0) {
 
@@ -213,6 +222,7 @@ public class FindConnectionsArtistFragment extends Fragment {
                         .with(FindConnectionsArtistFragment.this)
                         .load(getItem(position))
                         .into(imageView);
+                imageView.setHint(getItem(position));
             }
             else{
                 textView.setText(getItem(position));

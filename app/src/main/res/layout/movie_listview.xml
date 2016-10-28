@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:id="@+id/movie_listview_layout"
     >
-    <ImageView
+    <com.mac.fireflies.wgt.moviematch.HintImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/movie_imageView"

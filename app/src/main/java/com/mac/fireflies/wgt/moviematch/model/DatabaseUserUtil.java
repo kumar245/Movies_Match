@@ -1,9 +1,12 @@
 package com.mac.fireflies.wgt.moviematch.model;
 
+import android.widget.ArrayAdapter;
+
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.mac.fireflies.wgt.moviematch.FindConnectionsArtistFragment;
 import com.mac.fireflies.wgt.moviematch.api.themoviedb.PojoSearchMovie;
@@ -64,11 +67,12 @@ public class DatabaseUserUtil {
                         posterPath = ((PojoSearchMovie.Result) response.body().results.get(0)).posterPath;
                         if (posterPath != "no_poster") {
                             poster.setValue("https://image.tmdb.org/t/p/w300_and_h450_bestv2" + posterPath);
+                            DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReferenceFromUrl("https://fblogin-8f810.firebaseio.com/");
+                            databaseReference.child("temp").child("movies").setValue("Testing");
                             return;
                         }
                     }
                     poster.setValue("http://www.baudettemovies.com/BT-moviepopcorn.jpg");
-
                 }
 
             }
@@ -130,6 +134,7 @@ public class DatabaseUserUtil {
                     adapter.clear();
                 adapter.addAll(connList);
 
+
             }
 
             @Override
@@ -138,5 +143,27 @@ public class DatabaseUserUtil {
             }
         });
 
+    }
+
+    public static void getConnections(DatabaseReference databaseReference, FirebaseUser currentUser, final ArrayAdapter<String> adapter) {
+        final List<String> connections = new ArrayList<>();
+        databaseReference.child("users").child(currentUser.getUid()).child("connections")
+                .addValueEventListener(new
+                ValueEventListener() {
+                    @Override
+                    public void onDataChange(DataSnapshot dataSnapshot) {
+
+                        Iterator<DataSnapshot> iterator = dataSnapshot.getChildren().iterator();
+                        while (iterator.hasNext()){
+                            connections.add(iterator.next().getKey());
+                        }
+                        adapter.addAll(connections);
+                    }
+
+                    @Override
+                    public void onCancelled(DatabaseError databaseError) {
+
+                    }
+                });
     }
 }

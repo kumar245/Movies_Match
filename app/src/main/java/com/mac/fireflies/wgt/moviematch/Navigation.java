@@ -36,7 +36,7 @@ public class Navigation extends AppCompatActivity
 
     FirebaseDatabase database = FirebaseDatabase.getInstance();
     FindConnectionsArtistFragment findConnectionsArtistFragment;
-    Movie movie=new Movie();
+    public static Movie movie=new Movie();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -101,11 +101,11 @@ public class Navigation extends AppCompatActivity
 
         auth.getDisplayName();
 
-        TextView username=(TextView) navigationView.getHeaderView(0).findViewById(R.id.uid);
+        //TextView username=(TextView) navigationView.getHeaderView(0).findViewById(R.id.uid);
 
 
 
-        movie.imdbId = "65655";
+        movie.id = "65655";
         movie.posterPath="http://cdn.collider.com/wp-content/uploads/amazing-spider-man-movie-poster.jpg";
         movie.originalLanguage="English";
         movie.originalTitle="SPIDER MAN";
