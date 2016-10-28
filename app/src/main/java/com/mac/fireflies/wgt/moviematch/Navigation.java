@@ -31,6 +31,7 @@ public class Navigation extends AppCompatActivity
     FirebaseUser auth;
 
     FirebaseDatabase database = FirebaseDatabase.getInstance();
+    FindConnectionsArtistFragment findConnectionsArtistFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,13 +58,32 @@ public class Navigation extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        FindConnectionsArtistFragment findConnectionsArtistFragment = FindConnectionsArtistFragment.newInstance("Leonardo Di Caprio", "Eminem");
+        findConnectionsArtistFragment = FindConnectionsArtistFragment.newInstance("Leonardo Di Caprio", "Eminem");
         getSupportFragmentManager()
                 .beginTransaction()
                 .add(R.id.myContainer, findConnectionsArtistFragment)
                 .commit();
 
         fireBaseLogin();
+//        Intent intent = getParentActivityIntent();
+//        if (intent != null) {
+//            SuggestedNames suggestedNames = (SuggestedNames) intent.getSerializableExtra("SuggestedNames");
+//            if (suggestedNames != null) {
+//                suggestedNames = (SuggestedNames) intent.getSerializableExtra("SuggestedNames");
+//                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, suggestedNames.link);
+//
+//                if (suggestedNames.isNameFirst) {
+//                    findConnectionsArtistFragment.textViewArtist1.setAdapter(adapter);
+//                    findConnectionsArtistFragment.textViewArtist2.setText(suggestedNames.nameArtist2);
+//                } else {
+//                    findConnectionsArtistFragment.textViewArtist2.setAdapter(adapter);
+//                    findConnectionsArtistFragment.textViewArtist1.setText(suggestedNames.nameArtist1);
+//
+//                }
+//
+//
+//            }
+//        }
     }
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -100,6 +120,12 @@ public class Navigation extends AppCompatActivity
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.navigation, menu);
         return true;
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
     }
 
     @Override

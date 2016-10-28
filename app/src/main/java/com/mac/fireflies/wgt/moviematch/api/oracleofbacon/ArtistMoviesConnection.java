@@ -9,6 +9,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.mac.fireflies.wgt.moviematch.FindConnectionsArtistFragment;
 import com.mac.fireflies.wgt.moviematch.model.DatabaseUserUtil;
+import com.mac.fireflies.wgt.moviematch.model.SuggestedNames;
 import com.mac.fireflies.wgt.moviematch.network.RetrofitApiService;
 import com.mac.fireflies.wgt.moviematch.network.RetrofitClient;
 
@@ -29,7 +30,7 @@ public class ArtistMoviesConnection {
     static RetrofitApiService retrofitApiService = RetrofitClient.getOracleofBaconApiService();
     static final List<PojoArtistMoviesConnection> connection  = new ArrayList<>();
 
-    public static void findConnection(String artist1, String artist2, final FindConnectionsArtistFragment.AdapterArtistMovieConnection adapter) {
+    public static void findConnection(final String artist1, final String artist2, final FindConnectionsArtistFragment.AdapterArtistMovieConnection adapter) {
         final Call<PojoArtistMoviesConnection> list = retrofitApiService.getOracleofBaconJSON(URL_KEY + "&a="+artist1 +"&b="+artist2);
         list.enqueue(new Callback<PojoArtistMoviesConnection>() {
             @Override
@@ -48,14 +49,36 @@ public class ArtistMoviesConnection {
                                     links);
                             i.setAction("com.mac.fireflies.wgt.moviematch.STATUS_SUCCESS");
                             adapter.getContext().sendBroadcast(i);
+
                             DatabaseUserUtil.setConnectionAdapter(userRef, keyConnection, adapter);
                             break;
                         case "spellcheck":
                             Toast.makeText(adapter.getContext(), "Please check the suggested names", Toast.LENGTH_LONG).show();
 
-                            adapter.addAll(response.body().matches);
+//                            adapter.addAll("Sorry, we do not recognize "+ response.body().name);
                             i.setAction("com.mac.fireflies.wgt.moviematch.STATUS_SPELL_CHECK");
+                            SuggestedNames suggestedNames = null;
+                            String aux = response.body().name;
+                            if (aux.equals(artist1)) {
+
+                                suggestedNames = new SuggestedNames(response.body(), artist2, true);
+                            }
+                            else
+                                suggestedNames = new SuggestedNames(response.body(), artist1, false);
+
+                            FindConnectionsArtistFragment.listView.setSuggestedNames(suggestedNames);
+//
+//                            i.putExtra("SuggestedNames", suggestedNames);
+                            adapter.addAll(response.body().matches);
                             adapter.getContext().sendBroadcast(i);
+                            break;
+                        case "error":
+                            adapter.add("Sorry, we did not find a connection. \n" +
+                                    "Very soon we will extend our search to " +
+                                    "- TV shows and TV movies\n" +
+                                    "- Video games\n" +
+                                    "- Straight-to-video releases\n" +
+                                    "Come back soon!!!");
                             break;
                     }
                 }
@@ -63,7 +86,7 @@ public class ArtistMoviesConnection {
 
             @Override
             public void onFailure(Call<PojoArtistMoviesConnection> call, Throwable t) {
-
+                String a = "";
             }
         });
     }

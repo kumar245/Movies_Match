@@ -17,6 +17,13 @@ public class myreceiver extends BroadcastReceiver {
 
         }
         else if (i.getAction()=="com.mac.fireflies.wgt.moviematch.STATUS_SPELL_CHECK"){
+//            Intent intent = new Intent(context, Navigation.class);
+//            SuggestedNames suggestedNames = (SuggestedNames)(i.getSerializableExtra("SuggestedNames"));
+//            intent.putExtra("SuggestedNames", suggestedNames);
+//            context.startActivity(intent, null);
+
+
+
 //            Toast.makeText(context, "SpellCheck " + i.getAction(), Toast.LENGTH_SHORT).show();
         }
     }

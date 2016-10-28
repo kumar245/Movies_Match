@@ -1,7 +1,5 @@
 package com.mac.fireflies.wgt.moviematch.model;
 
-import android.util.Log;
-
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -42,7 +40,8 @@ public class DatabaseUserUtil {
             else {
                 connections.child(i + "").child("Movie").setValue(connectionArtist.get(i));
                 getMoviePosterRetrofit(connections.child(i + "").child("Poster"), connectionArtist.get(i));
-                //connections.child(i + "").child("Poster").setValue("http://www.navymwr.org/assets/movies/images/img-popcorn.png");
+//                if (connections.child(i+"").child("Poster"). == null)
+//                    connections.child(i + "").child("Poster").setValue("no_poster");
             }
         }
         
@@ -60,16 +59,17 @@ public class DatabaseUserUtil {
             @Override
             public void onResponse(Call<PojoSearchMovie> call, Response<PojoSearchMovie> response) {
                 if (response.isSuccessful()) {
-                    String posterPath = "";
-                    if (response.body().results.size() == 0) {
-                        posterPath = "http://www.baudettemovies.com/BT-moviepopcorn.jpg";
+                    String posterPath = ((PojoSearchMovie.Result) response.body().results.get(0)).posterPath;
+                    if (response.body().results.size() != 0 ) {
+                        posterPath = ((PojoSearchMovie.Result) response.body().results.get(0)).posterPath;
+                        if (posterPath != "no_poster") {
+                            poster.setValue("https://image.tmdb.org/t/p/w300_and_h450_bestv2" + posterPath);
+                            return;
+                        }
                     }
-                    else
-                        posterPath = ((PojoSearchMovie.Result)response.body().results.get(0)).posterPath;
-                    poster.setValue("https://image.tmdb.org/t/p/w300_and_h450_bestv2" + posterPath);
+                    poster.setValue("http://www.baudettemovies.com/BT-moviepopcorn.jpg");
+
                 }
-                    Log.d("TheMovieDB ==> ",
-                            "We found a connection");
 
             }
 
@@ -118,8 +118,10 @@ public class DatabaseUserUtil {
                     else{
                         Iterator<DataSnapshot> moviesIterator = iterator.next().getChildren().iterator();
                         moviesIterator.next().getValue().toString();
-                        connList.add(moviesIterator.next().getValue().toString());
-
+                        if (moviesIterator.hasNext())
+                            connList.add(moviesIterator.next().getValue().toString());
+                        else
+                            connList.add("http://www.baudettemovies.com/BT-moviepopcorn.jpg");
                     }
                     i++;
                 }

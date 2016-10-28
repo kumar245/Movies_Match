@@ -8,15 +8,17 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.mac.fireflies.wgt.moviematch.api.oracleofbacon.ArtistMoviesConnection;
+import com.mac.fireflies.wgt.moviematch.api.oracleofbacon.PojoArtistMoviesConnection;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -41,7 +43,8 @@ public class FindConnectionsArtistFragment extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    ListView listView;
+    public static SuggestedListView listView;
+    AutoCompleteTextView textViewArtist1, textViewArtist2;
 
     public FindConnectionsArtistFragment() {
         // Required empty public constructor
@@ -109,20 +112,42 @@ public class FindConnectionsArtistFragment extends Fragment {
     }
     private void matchArtist(View v) {
         //ListView with data
-        listView = (ListView) v.findViewById(R.id.listView);
+        listView = (SuggestedListView) v.findViewById(R.id.listView);
         Button button = (Button) v.findViewById(R.id.button);
-        final AutoCompleteTextView textViewArtist1 = (AutoCompleteTextView) v.findViewById(R.id.editText1) ;
-        final AutoCompleteTextView textViewArtist2 = (AutoCompleteTextView) v.findViewById(R.id.editText2) ;
-        textViewArtist1.setText("Tom Cruise");
-        textViewArtist2.setText("Eminem");
+        textViewArtist1 = (AutoCompleteTextView) v.findViewById(R.id.editText1) ;
+        textViewArtist2 = (AutoCompleteTextView) v.findViewById(R.id.editText2) ;
 
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                if (view.getId() == R.id.movie_listview_layout){
+                    if (listView.suggestedNames != null){
+                        if (listView.suggestedNames.isNameFirst){
+                            textViewArtist1.setText(((TextView)view.findViewById(R.id.movie_textView)).getText());
+                        }
+                        else{
+
+                            textViewArtist2.setText(((TextView)view.findViewById(R.id.movie_textView)).getText());
+                        }
+                    }
+                    else if(position % 2 != 0){
+
+                        Toast.makeText(getContext(), "Pelicula", Toast.LENGTH_LONG).show();
+                    }
+                }
+
+            }
+        });
         button.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
 
-                final FindConnectionsArtistFragment.AdapterArtistMovieConnection adapter = new FindConnectionsArtistFragment.AdapterArtistMovieConnection(v.getContext(),
+                final FindConnectionsArtistFragment.AdapterArtistMovieConnection adapter = new FindConnectionsArtistFragment.AdapterArtistMovieConnection(view.getContext(),
                         android.R.layout.simple_list_item_1,
                         new ArrayList<String>());
+
+
                 ArtistMoviesConnection
                         .findConnection(textViewArtist1.getText().toString(), textViewArtist2.getText().toString(), adapter);
 
@@ -137,6 +162,8 @@ public class FindConnectionsArtistFragment extends Fragment {
 //                };
 
                 listView.setAdapter(adapter);
+//                listView.setDivider(null);
+//                listView.setDividerHeight(0);
             }
         });
     }
@@ -157,9 +184,11 @@ public class FindConnectionsArtistFragment extends Fragment {
     }
     public class AdapterArtistMovieConnection extends ArrayAdapter<String> {
         List<String> connections;
+        PojoArtistMoviesConnection pojoArtMovie;
         public AdapterArtistMovieConnection(Context context, int resource, List<String> conn) {
             super(context, resource);
             connections = conn;
+
 
 
         }
@@ -191,7 +220,12 @@ public class FindConnectionsArtistFragment extends Fragment {
 
             }
 
+
+
             return view;
         }
+
+
+
     }
 }
