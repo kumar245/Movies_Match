@@ -1,6 +1,7 @@
 package com.mac.fireflies.wgt.moviematch;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -12,9 +13,11 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.firebase.ui.auth.AuthUI;
@@ -39,6 +42,7 @@ public class Navigation extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navigation);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setBackgroundColor(Color.GRAY);
         setSupportActionBar(toolbar);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
@@ -66,6 +70,21 @@ public class Navigation extends AppCompatActivity
                 .commit();
 
         fireBaseLogin();
+        Log.d("sadf",auth.getEmail());
+//        Log.d("abce",auth.getUid());
+//        TextView username=(TextView) navigationView.getHeaderView(0).findViewById(R.id.uid);
+      TextView email = (TextView) navigationView.getHeaderView(0).findViewById(R.id.textView);
+//        username.setText(auth.getUid());
+        email.setText(auth.getEmail());
+        auth.getEmail();
+//        auth.getUid();
+
+        auth.getDisplayName();
+
+        TextView username=(TextView) navigationView.getHeaderView(0).findViewById(R.id.uid);
+
+
+
         movie.imdbId = "65655";
         movie.posterPath="http://cdn.collider.com/wp-content/uploads/amazing-spider-man-movie-poster.jpg";
         movie.originalLanguage="English";
