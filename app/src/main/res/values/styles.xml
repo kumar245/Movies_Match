@@ -9,6 +9,9 @@
         <item name="colorControlNormal">@color/colorControlNormal</item>
         <item name="colorControlActivated">@color/colorControlActivated</item>
         <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="actionBarItemBackground">@color/orange</item>
+        <item name="android:navigationBarColor">@color/orange</item>
+        <item name="colorSwitchThumbNormal">@color/bodyTextColor</item>
 
         <!--</style>-->
 

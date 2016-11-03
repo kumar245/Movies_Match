@@ -8,6 +8,7 @@
     android:orientation="vertical"
     tools:context="com.mac.fireflies.wgt.moviematch.MovieOverview"
     android:padding="5dp"
+    android:background="@color/orange"
     >
 
     <LinearLayout
@@ -29,7 +30,7 @@
             android:layout_weight="1">
             <TextView
                 android:text="Movie Details"
-                android:textColor="#9eff77"
+                android:textColor="#ffa277"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="1"

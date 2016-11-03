@@ -5,15 +5,16 @@
         <item
             android:id="@+id/nav_match"
             android:icon="@drawable/ic_menu_camera"
-            android:title="Match Artist" />
+            android:title="Match Artist"
+          />
         <item
             android:id="@+id/recent_watched"
             android:icon="@drawable/ic_menu_gallery"
             android:title="Recently Search" />
-        <item
-            android:id="@+id/category"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Category" />
+        <!--<item-->
+            <!--android:id="@+id/category"-->
+            <!--android:icon="@drawable/ic_menu_slideshow"-->
+            <!--android:title="Category" />-->
         <item
             android:id="@+id/favorites"
             android:icon="@drawable/ic_menu_manage"

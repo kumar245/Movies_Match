@@ -188,13 +188,13 @@ public class Navigation extends AppCompatActivity
         } else if (id == R.id.recent_watched) {
             RecentlyWatched recentlyWatched=new RecentlyWatched();
             getSupportFragmentManager().beginTransaction().replace(R.id.myContainer,recentlyWatched).commit();
-        } else if (id == R.id.category) {
-            Category category = new Category();
-
-            getSupportFragmentManager()
-                    .beginTransaction()
-                    .replace(R.id.myContainer,category )
-                    .commit();
+//        } else if (id == R.id.category) {
+//            Category category = new Category();
+//
+//            getSupportFragmentManager()
+//                    .beginTransaction()
+//                    .replace(R.id.myContainer,category )
+//                    .commit();
 
         } else if (id == R.id.favorites) {
             MyFavourites myFavourites=new MyFavourites();

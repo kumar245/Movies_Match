@@ -5,4 +5,5 @@
     <color name="colorAccent">#406dff</color>
     <color name="colorControlNormal">#D500F9</color>
     <color name="colorControlActivated">#7777</color>
+    <color name="orange">#77abff</color>
 </resources>
