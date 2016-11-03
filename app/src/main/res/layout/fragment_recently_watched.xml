@@ -14,12 +14,22 @@
         android:textStyle="italic|bold"
         android:textSize="40sp"
         android:layout_marginLeft="30dp"/>
-    <ListView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:id="@+id/listViewRecent"
-        android:textAlignment="center"
-        ></ListView>
+
+    <!--<ListView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:id="@+id/listViewRecent"-->
+        <!--android:textAlignment="center"-->
+        <!--&gt;</ListView>-->
+
+        <android.support.v7.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerView"
+            android:clipToPadding="false">
+
+    </android.support.v7.widget.RecyclerView>
+
 
 </LinearLayout>

@@ -90,16 +90,16 @@ public class Navigation extends AppCompatActivity
 //
 //            }
 //        }
-        Log.d("sadf",auth.getEmail());
+//        Log.d("sadf",auth.getEmail());
 //        Log.d("abce",auth.getUid());
 //        TextView username=(TextView) navigationView.getHeaderView(0).findViewById(R.id.uid);
       TextView email = (TextView) navigationView.getHeaderView(0).findViewById(R.id.textView);
 //        username.setText(auth.getUid());
-        email.setText(auth.getEmail());
-        auth.getEmail();
+//        email.setText(auth.getEmail());
+//        auth.getEmail();
 //        auth.getUid();
 
-        auth.getDisplayName();
+//        auth.getDisplayName();
 
         //TextView username=(TextView) navigationView.getHeaderView(0).findViewById(R.id.uid);
 
