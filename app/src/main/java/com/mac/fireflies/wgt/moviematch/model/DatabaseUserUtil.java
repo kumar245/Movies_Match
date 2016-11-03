@@ -169,4 +169,9 @@ public class DatabaseUserUtil {
                     }
                 });
     }
+
+    public static void addFavoriteMovie(FirebaseDatabase instance, FirebaseUser currentUser, Movie movie) {
+        DatabaseReference refUser = getUserReference(instance.getReference(), currentUser);
+        refUser.child("favorites").child(movie.id).setValue(movie);
+    }
 }

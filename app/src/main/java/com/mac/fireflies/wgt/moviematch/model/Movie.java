@@ -12,6 +12,7 @@ public class Movie {
     public String originalLanguage;
     public String originalTitle;
     public String overview;
+    public String releaseDate;
 
     public Movie(){
 
@@ -32,6 +33,7 @@ public class Movie {
         originalTitle = moviePojo.originalTitle;
         originalLanguage = moviePojo.originalLanguage;
         overview = moviePojo.overview;
+        releaseDate = moviePojo.releaseDate;
 
     }
 

@@ -2,13 +2,17 @@ package com.mac.fireflies.wgt.moviematch;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.FirebaseDatabase;
 import com.mac.fireflies.wgt.moviematch.api.oracleofbacon.ArtistMoviesConnection;
+import com.mac.fireflies.wgt.moviematch.model.DatabaseUserUtil;
 import com.mac.fireflies.wgt.moviematch.model.Movie;
 
 import java.util.ArrayList;
@@ -24,7 +28,7 @@ String[] categories = {"Action","Romance","Adventure","Kids","Animation"};
     TextView Title;
     TextView OverView;
     TextView Language;
-    TextView AddtoCategory;
+    Button favorite;
     Button Add;
 
 
@@ -36,8 +40,9 @@ String[] categories = {"Action","Romance","Adventure","Kids","Animation"};
         Title=(TextView) findViewById(R.id.titl);
         OverView=(TextView) findViewById(R.id.overview);
         Language=(TextView) findViewById(R.id.language);
-        AddtoCategory=(TextView) findViewById(R.id.addtocategory);
+
         imageView=(ImageView) findViewById(R.id.imageView2);
+        favorite = (Button) findViewById(R.id.favorites);
 
         //        Array Adapter
 
@@ -80,13 +85,21 @@ List<Movie> mov=new ArrayList<>();
 
         Title.setText(movie.originalTitle);
         Language.setText(movie.originalLanguage);
-        OverView.setText(movie.id);
-        AddtoCategory.setText(movie.overview);
+        OverView.setText(movie.overview);
 
         Glide
                 .with(this)
-                .load(movie.posterPath)
+                .load(movie.getPath())
                 .into(imageView);
+
+        favorite.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                DatabaseUserUtil.addFavoriteMovie(FirebaseDatabase.getInstance(),
+                        FirebaseAuth.getInstance().getCurrentUser(),
+                        movie);
+            }
+        });
     }
     public void setMovie(Movie movie){
         this.movie = movie;
