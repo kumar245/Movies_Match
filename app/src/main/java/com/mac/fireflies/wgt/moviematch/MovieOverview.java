@@ -72,7 +72,7 @@ String[] categories = {"Action","Romance","Adventure","Kids","Animation"};
         else
             movie = ArtistMoviesConnection.getInstance().currentMovie;
 
-List<Movie> mov=new ArrayList<>();
+final List<Movie> mov=new ArrayList<>();
         mov.add(movie);
         mov.add(movie);
         mov.add(movie);

@@ -15,6 +15,7 @@ import com.mac.fireflies.wgt.moviematch.network.RetrofitApiService;
 import com.mac.fireflies.wgt.moviematch.network.RetrofitClient;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 
@@ -173,5 +174,25 @@ public class DatabaseUserUtil {
     public static void addFavoriteMovie(FirebaseDatabase instance, FirebaseUser currentUser, Movie movie) {
         DatabaseReference refUser = getUserReference(instance.getReference(), currentUser);
         refUser.child("favorites").child(movie.id).setValue(movie);
+    }
+
+    public static void getFavoritesMovies(FirebaseUser user, final List<Movie> movies) {
+        DatabaseReference refUser = getUserReference(FirebaseDatabase.getInstance().getReference(), user);
+        refUser.child("favorites").addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                Iterator<DataSnapshot> iterator = dataSnapshot.getChildren().iterator();
+                while (iterator.hasNext()){
+                    DataSnapshot item = iterator.next();
+                    movies.add(new Movie(((HashMap<String, String>) item.getValue())));
+               }
+
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
     }
 }
