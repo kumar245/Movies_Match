@@ -25,6 +25,16 @@ public class Movie {
         originalTitle = moviebyURI.results.get(0).originalTitle;
         overview = moviebyURI.results.get(0).overview;
     }
+
+    public Movie(PojoSearchMovie.Result moviePojo) {
+        id = moviePojo.id.toString();
+        posterPath = moviePojo.posterPath;
+        originalTitle = moviePojo.originalTitle;
+        originalLanguage = moviePojo.originalLanguage;
+        overview = moviePojo.overview;
+
+    }
+
     public String getPath(){
         return "https://image.tmdb.org/t/p/w300_and_h450_bestv2"+posterPath;
     }

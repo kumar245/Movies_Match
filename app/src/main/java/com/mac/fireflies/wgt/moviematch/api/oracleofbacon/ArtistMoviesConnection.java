@@ -8,14 +8,18 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.mac.fireflies.wgt.moviematch.FindConnectionsArtistFragment;
+import com.mac.fireflies.wgt.moviematch.api.themoviedb.PojoSearchMovie;
 import com.mac.fireflies.wgt.moviematch.model.DatabaseUserUtil;
+import com.mac.fireflies.wgt.moviematch.model.Movie;
 import com.mac.fireflies.wgt.moviematch.model.SuggestedNames;
 import com.mac.fireflies.wgt.moviematch.network.RetrofitApiService;
 import com.mac.fireflies.wgt.moviematch.network.RetrofitClient;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -26,10 +30,22 @@ import retrofit2.Response;
  */
 
 public class ArtistMoviesConnection {
+
+    private static final ArtistMoviesConnection instance = new ArtistMoviesConnection();
+    public static List<String> links = new ArrayList<>();
+    public static Map<String, Movie> movies = new HashMap<>();
+    public static Movie currentMovie;
+
     static private String URL_KEY = "/cgi-bin/json?p=38b99ce9ec87";
     static RetrofitApiService retrofitApiService = RetrofitClient.getOracleofBaconApiService();
     static final List<PojoArtistMoviesConnection> connection  = new ArrayList<>();
 
+    private ArtistMoviesConnection(){
+
+    }
+    public static ArtistMoviesConnection getInstance(){
+        return instance;
+    }
     public static void findConnection(final String artist1, final String artist2, final FindConnectionsArtistFragment.AdapterArtistMovieConnection adapter) {
         final Call<PojoArtistMoviesConnection> list = retrofitApiService.getOracleofBaconJSON(URL_KEY + "&a="+artist1 +"&b="+artist2);
         list.enqueue(new Callback<PojoArtistMoviesConnection>() {
@@ -40,7 +56,7 @@ public class ArtistMoviesConnection {
                     switch (response.body().status){
                         case "success":
                             Toast.makeText(adapter.getContext(), "We found a connection", Toast.LENGTH_LONG).show();
-                            List<String> links = response.body().link;
+                            links = response.body().link;
                             Collections.reverse(links);
                             DatabaseReference userRef = DatabaseUserUtil.getUserReference(FirebaseDatabase.getInstance().getReference(),
                                     FirebaseAuth.getInstance().getCurrentUser());
@@ -102,6 +118,9 @@ public class ArtistMoviesConnection {
             return "error";
         else
             return connection.get(0).status;
+    }
+    public void addMovie(String nameMovie, PojoSearchMovie.Result moviePojo){
+        movies.put(nameMovie, new Movie(moviePojo));
     }
 }
 

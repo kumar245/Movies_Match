@@ -8,6 +8,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.mac.fireflies.wgt.moviematch.api.oracleofbacon.ArtistMoviesConnection;
 import com.mac.fireflies.wgt.moviematch.model.Movie;
 
 import java.util.ArrayList;
@@ -56,11 +57,15 @@ String[] categories = {"Action","Romance","Adventure","Kids","Animation"};
         listView.setAdapter(list_adapter);
 
         Add=(Button) findViewById(R.id.add);
-        movie.id = "65655";
-        movie.posterPath="http://cdn.collider.com/wp-content/uploads/amazing-spider-man-movie-poster.jpg";
-        movie.originalLanguage="English";
-        movie.originalTitle="SPIDER MAN";
-        movie.overview="Description";
+        if (ArtistMoviesConnection.getInstance().currentMovie == null){
+            movie.id = "65655";
+            movie.posterPath="http://cdn.collider.com/wp-content/uploads/amazing-spider-man-movie-poster.jpg";
+            movie.originalLanguage="English";
+            movie.originalTitle="SPIDER MAN";
+            movie.overview="Description";
+        }
+        else
+            movie = ArtistMoviesConnection.getInstance().currentMovie;
 
 List<Movie> mov=new ArrayList<>();
         mov.add(movie);
