@@ -9,11 +9,13 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.mac.fireflies.wgt.moviematch.FindConnectionsArtistFragment;
+import com.mac.fireflies.wgt.moviematch.api.oracleofbacon.ArtistMoviesConnection;
 import com.mac.fireflies.wgt.moviematch.api.themoviedb.PojoSearchMovie;
 import com.mac.fireflies.wgt.moviematch.network.RetrofitApiService;
 import com.mac.fireflies.wgt.moviematch.network.RetrofitClient;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 
@@ -54,7 +56,7 @@ public class DatabaseUserUtil {
         return movieNameOoB.substring(0, movieNameOoB.length() - 7);
     }
 
-    private static void getMoviePosterRetrofit(final DatabaseReference poster, String nameMovieYear) {
+    private static void getMoviePosterRetrofit(final DatabaseReference poster, final String nameMovieYear) {
         String URL_KEY = "movie?api_key=866403e3c5ee4487cc4ec63ee2e1e15c";
         RetrofitApiService retrofitApiService = RetrofitClient.getTheMovieDBApiService();
         final Call<PojoSearchMovie> list = retrofitApiService.getSeachMovieJSON(URL_KEY + "&query="+ getStringMovieName(nameMovieYear) + "&year=" + getStringMovieYear(nameMovieYear));
@@ -63,6 +65,7 @@ public class DatabaseUserUtil {
             public void onResponse(Call<PojoSearchMovie> call, Response<PojoSearchMovie> response) {
                 if (response.isSuccessful()) {
                     String posterPath = ((PojoSearchMovie.Result) response.body().results.get(0)).posterPath;
+                    ArtistMoviesConnection.getInstance().addMovie(nameMovieYear, (PojoSearchMovie.Result) response.body().results.get(0));
                     if (response.body().results.size() != 0 ) {
                         posterPath = ((PojoSearchMovie.Result) response.body().results.get(0)).posterPath;
                         if (posterPath != "no_poster") {
@@ -72,6 +75,7 @@ public class DatabaseUserUtil {
                             return;
                         }
                     }
+
                     poster.setValue("http://www.baudettemovies.com/BT-moviepopcorn.jpg");
                 }
 
@@ -165,5 +169,30 @@ public class DatabaseUserUtil {
 
                     }
                 });
+    }
+
+    public static void addFavoriteMovie(FirebaseDatabase instance, FirebaseUser currentUser, Movie movie) {
+        DatabaseReference refUser = getUserReference(instance.getReference(), currentUser);
+        refUser.child("favorites").child(movie.id).setValue(movie);
+    }
+
+    public static void getFavoritesMovies(FirebaseUser user, final List<Movie> movies) {
+        DatabaseReference refUser = getUserReference(FirebaseDatabase.getInstance().getReference(), user);
+        refUser.child("favorites").addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                Iterator<DataSnapshot> iterator = dataSnapshot.getChildren().iterator();
+                while (iterator.hasNext()){
+                    DataSnapshot item = iterator.next();
+                    movies.add(new Movie(((HashMap<String, String>) item.getValue())));
+               }
+
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
     }
 }

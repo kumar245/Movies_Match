@@ -37,6 +37,7 @@ public class FindConnectionsArtistFragment extends Fragment {
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
 
+    ArtistMoviesConnection aux = ArtistMoviesConnection.getInstance();
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
@@ -140,6 +141,10 @@ public class FindConnectionsArtistFragment extends Fragment {
 //                                Navigation.movie = new Movie(aux);
 //                        }
                         startActivity(i);
+                        if(aux.movies.containsKey(aux.links.get(position))) {
+                            aux.currentMovie = aux.movies.get(aux.links.get(position));
+                        }
+
                     }
                 }
 
@@ -223,13 +228,13 @@ public class FindConnectionsArtistFragment extends Fragment {
                         .load(getItem(position))
                         .into(imageView);
                 imageView.setHint(getItem(position));
+
             }
             else{
                 textView.setText(getItem(position));
                 imageView.setVisibility(View.INVISIBLE);
 
             }
-
 
 
             return view;

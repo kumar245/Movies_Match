@@ -26,6 +26,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.FirebaseDatabase;
+import com.mac.fireflies.wgt.moviematch.api.oracleofbacon.ArtistMoviesConnection;
 import com.mac.fireflies.wgt.moviematch.model.Movie;
 
 public class Navigation extends AppCompatActivity
@@ -45,6 +46,8 @@ public class Navigation extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setBackgroundColor(Color.GRAY);
         setSupportActionBar(toolbar);
+
+        ArtistMoviesConnection aux = ArtistMoviesConnection.getInstance();
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -152,7 +155,6 @@ public class Navigation extends AppCompatActivity
     @Override
     protected void onResume() {
         super.onResume();
-
     }
 
     @Override
