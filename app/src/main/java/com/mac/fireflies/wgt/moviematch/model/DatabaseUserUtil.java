@@ -1,7 +1,9 @@
 package com.mac.fireflies.wgt.moviematch.model;
 
+import android.util.Log;
 import android.widget.ArrayAdapter;
 
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -162,6 +164,7 @@ public class DatabaseUserUtil {
                             connections.add(iterator.next().getKey());
                         }
                         adapter.addAll(connections);
+
                     }
 
                     @Override
@@ -186,6 +189,40 @@ public class DatabaseUserUtil {
                     DataSnapshot item = iterator.next();
                     movies.add(new Movie(((HashMap<String, String>) item.getValue())));
                }
+
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+    }
+
+    public static void getConnectionFromKey(final String keyMOvie) {
+        ArtistMoviesConnection.getInstance().links = new ArrayList<>();
+        DatabaseReference refUser = getUserReference(FirebaseDatabase.getInstance().getReference(), FirebaseAuth.getInstance().getCurrentUser());
+        refUser.child("connections").addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                Iterator<DataSnapshot> iterator = dataSnapshot.child(keyMOvie).getChildren().iterator();
+                int i = 0;
+                while (iterator.hasNext()){
+                    DataSnapshot item = iterator.next();
+                    Iterator<DataSnapshot> iterator1 = item.getChildren().iterator();
+
+                    while (iterator1.hasNext()){
+                        if (i %2 == 0){
+                            ArtistMoviesConnection.getInstance().links.add(iterator1.next().getValue().toString());
+                        }
+                        else{
+                            iterator1.next();
+                            ArtistMoviesConnection.getInstance().links.add(iterator1.next().getValue().toString());
+                        }
+                        i++;
+                    }
+                    Log.d("Recently ==>", ArtistMoviesConnection.getInstance().links.size() + "");
+                }
 
             }
 

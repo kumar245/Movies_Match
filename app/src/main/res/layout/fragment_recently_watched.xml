@@ -15,13 +15,13 @@
         android:textSize="40sp"
         android:layout_marginLeft="30dp"/>
 
-    <!--<ListView-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="0dp"-->
-        <!--android:layout_weight="1"-->
-        <!--android:id="@+id/listViewRecent"-->
-        <!--android:textAlignment="center"-->
-        <!--&gt;</ListView>-->
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/listViewRecent"
+        android:textAlignment="center"
+        ></ListView>
 
         <android.support.v7.widget.RecyclerView
         android:layout_width="wrap_content"
